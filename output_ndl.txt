@@ -1,0 +1,959 @@
+[INFO] [1755623264.212313691] [kalman_filter_node]: Corrected: x=0.024240 y=0.004855 z=0.037286 | Meas: x=0.048479 y=0.009709 z=0.074572 | Error=0.044737
+[INFO] [1755623264.231535742] [kalman_filter_node]: Corrected: x=0.032322 y=0.006453 z=0.049707 | Meas: x=0.048486 y=0.009650 z=0.074550 | Error=0.029810
+[INFO] [1755623264.331336190] [kalman_filter_node]: Corrected: x=0.036377 y=0.007248 z=0.055908 | Meas: x=0.048544 y=0.009632 z=0.074509 | Error=0.022354
+[INFO] [1755623264.431653676] [kalman_filter_node]: Corrected: x=0.038851 y=0.007721 z=0.059660 | Meas: x=0.048746 y=0.009615 z=0.074668 | Error=0.018076
+[INFO] [1755623264.530421645] [kalman_filter_node]: Corrected: x=0.040492 y=0.008036 z=0.062166 | Meas: x=0.048698 y=0.009608 z=0.074701 | Error=0.015064
+[INFO] [1755623264.631284210] [kalman_filter_node]: Corrected: x=0.041668 y=0.008242 z=0.063940 | Meas: x=0.048720 y=0.009477 z=0.074580 | Error=0.012825
+[INFO] [1755623264.731389727] [kalman_filter_node]: Corrected: x=0.042558 y=0.008396 z=0.065276 | Meas: x=0.048792 y=0.009473 z=0.074626 | Error=0.011289
+[INFO] [1755623264.831467780] [kalman_filter_node]: Corrected: x=0.043261 y=0.008518 z=0.066317 | Meas: x=0.048881 y=0.009496 z=0.074647 | Error=0.010096
+[INFO] [1755623264.931380443] [kalman_filter_node]: Corrected: x=0.043832 y=0.008617 z=0.067157 | Meas: x=0.048976 y=0.009512 z=0.074722 | Error=0.009191
+[INFO] [1755623265.031389551] [kalman_filter_node]: Corrected: x=0.044278 y=0.008712 z=0.067843 | Meas: x=0.048736 y=0.009663 z=0.074694 | Error=0.008229
+[INFO] [1755623265.130061671] [kalman_filter_node]: Corrected: x=0.044680 y=0.008785 z=0.068418 | Meas: x=0.049097 y=0.009589 z=0.074742 | Error=0.007757
+[INFO] [1755623265.230060069] [kalman_filter_node]: Corrected: x=0.044959 y=0.008857 z=0.068891 | Meas: x=0.048316 y=0.009710 z=0.074576 | Error=0.006657
+[INFO] [1755623265.330022846] [kalman_filter_node]: Corrected: x=0.045203 y=0.008909 z=0.069301 | Meas: x=0.048377 y=0.009593 z=0.074623 | Error=0.006234
+[INFO] [1755623265.429989775] [kalman_filter_node]: Corrected: x=0.045457 y=0.008949 z=0.069665 | Meas: x=0.049004 y=0.009509 z=0.074764 | Error=0.006237
+[INFO] [1755623265.530161844] [kalman_filter_node]: Corrected: x=0.045639 y=0.008987 z=0.069975 | Meas: x=0.048374 y=0.009548 z=0.074624 | Error=0.005423
+[INFO] [1755623265.630232633] [kalman_filter_node]: Corrected: x=0.045822 y=0.009027 z=0.070249 | Meas: x=0.048744 y=0.009668 z=0.074631 | Error=0.005306
+[INFO] [1755623265.730287477] [kalman_filter_node]: Corrected: x=0.045983 y=0.009062 z=0.070493 | Meas: x=0.048724 y=0.009666 z=0.074644 | Error=0.005011
+[INFO] [1755623265.830338861] [kalman_filter_node]: Corrected: x=0.046129 y=0.009093 z=0.070712 | Meas: x=0.048755 y=0.009651 z=0.074665 | Error=0.004778
+[INFO] [1755623265.930566765] [kalman_filter_node]: Corrected: x=0.046257 y=0.009120 z=0.070907 | Meas: x=0.048690 y=0.009639 z=0.074612 | Error=0.004462
+[INFO] [1755623266.030092396] [kalman_filter_node]: Corrected: x=0.046379 y=0.009142 z=0.071090 | Meas: x=0.048815 y=0.009579 z=0.074744 | Error=0.004413
+[INFO] [1755623266.130038193] [kalman_filter_node]: Corrected: x=0.046472 y=0.009166 z=0.071249 | Meas: x=0.048433 y=0.009658 z=0.074583 | Error=0.003899
+[INFO] [1755623266.230027885] [kalman_filter_node]: Corrected: x=0.046556 y=0.009184 z=0.071393 | Meas: x=0.048393 y=0.009592 z=0.074571 | Error=0.003694
+[INFO] [1755623266.330097901] [kalman_filter_node]: Corrected: x=0.046630 y=0.009201 z=0.071525 | Meas: x=0.048351 y=0.009582 z=0.074554 | Error=0.003504
+[INFO] [1755623266.429979336] [kalman_filter_node]: Corrected: x=0.046701 y=0.009215 z=0.071646 | Meas: x=0.048392 y=0.009559 z=0.074559 | Error=0.003386
+[INFO] [1755623266.530044647] [kalman_filter_node]: Corrected: x=0.046768 y=0.009227 z=0.071759 | Meas: x=0.048443 y=0.009517 z=0.074562 | Error=0.003279
+[INFO] [1755623266.629780179] [kalman_filter_node]: Corrected: x=0.046851 y=0.009242 z=0.071869 | Meas: x=0.049011 y=0.009642 z=0.074750 | Error=0.003623
+[INFO] [1755623266.729919274] [kalman_filter_node]: Corrected: x=0.046925 y=0.009257 z=0.071970 | Meas: x=0.048925 y=0.009666 z=0.074698 | Error=0.003407
+[INFO] [1755623266.829864390] [kalman_filter_node]: Corrected: x=0.046987 y=0.009268 z=0.072066 | Meas: x=0.048717 y=0.009578 z=0.074731 | Error=0.003193
+[INFO] [1755623266.929668698] [kalman_filter_node]: Corrected: x=0.047044 y=0.009282 z=0.072150 | Meas: x=0.048701 y=0.009670 z=0.074613 | Error=0.002993
+[INFO] [1755623267.029976074] [kalman_filter_node]: Corrected: x=0.047102 y=0.009292 z=0.072236 | Meas: x=0.048851 y=0.009608 z=0.074812 | Error=0.003129
+[INFO] [1755623267.129152666] [kalman_filter_node]: Corrected: x=0.047157 y=0.009303 z=0.072318 | Meas: x=0.048862 y=0.009636 z=0.074860 | Error=0.003079
+[INFO] [1755623267.229762570] [kalman_filter_node]: Corrected: x=0.047211 y=0.009312 z=0.072395 | Meas: x=0.048941 y=0.009595 z=0.074856 | Error=0.003021
+[INFO] [1755623267.329490779] [kalman_filter_node]: Corrected: x=0.047263 y=0.009322 z=0.072466 | Meas: x=0.048952 y=0.009649 z=0.074816 | Error=0.002912
+[INFO] [1755623267.429754434] [kalman_filter_node]: Corrected: x=0.047304 y=0.009333 z=0.072528 | Meas: x=0.048698 y=0.009708 z=0.074610 | Error=0.002534
+[INFO] [1755623267.529654633] [kalman_filter_node]: Corrected: x=0.047342 y=0.009342 z=0.072586 | Meas: x=0.048678 y=0.009648 z=0.074637 | Error=0.002467
+[INFO] [1755623267.629875544] [kalman_filter_node]: Corrected: x=0.047382 y=0.009349 z=0.072644 | Meas: x=0.048840 y=0.009627 z=0.074711 | Error=0.002545
+[INFO] [1755623267.729904984] [kalman_filter_node]: Corrected: x=0.047416 y=0.009353 z=0.072700 | Meas: x=0.048655 y=0.009472 z=0.074786 | Error=0.002429
+[INFO] [1755623267.829625813] [kalman_filter_node]: Corrected: x=0.047449 y=0.009359 z=0.072754 | Meas: x=0.048724 y=0.009587 z=0.074801 | Error=0.002422
+[INFO] [1755623267.929760651] [kalman_filter_node]: Corrected: x=0.047479 y=0.009369 z=0.072799 | Meas: x=0.048651 y=0.009765 z=0.074546 | Error=0.002141
+[INFO] [1755623268.029493688] [kalman_filter_node]: Corrected: x=0.047509 y=0.009375 z=0.072844 | Meas: x=0.048707 y=0.009644 z=0.074675 | Error=0.002204
+[INFO] [1755623268.129384495] [kalman_filter_node]: Corrected: x=0.047536 y=0.009384 z=0.072883 | Meas: x=0.048634 y=0.009737 z=0.074471 | Error=0.001962
+[INFO] [1755623268.229393058] [kalman_filter_node]: Corrected: x=0.047561 y=0.009392 z=0.072922 | Meas: x=0.048628 y=0.009712 z=0.074542 | Error=0.001965
+[INFO] [1755623268.328753758] [kalman_filter_node]: Corrected: x=0.047590 y=0.009398 z=0.072964 | Meas: x=0.048799 y=0.009667 z=0.074800 | Error=0.002215
+[INFO] [1755623268.431476463] [kalman_filter_node]: Corrected: x=0.047614 y=0.009401 z=0.073002 | Meas: x=0.048692 y=0.009545 z=0.074655 | Error=0.001978
+[INFO] [1755623268.531512083] [kalman_filter_node]: Corrected: x=0.047638 y=0.009405 z=0.073040 | Meas: x=0.048700 y=0.009560 z=0.074738 | Error=0.002009
+[INFO] [1755623268.632178135] [kalman_filter_node]: Corrected: x=0.047661 y=0.009410 z=0.073075 | Meas: x=0.048711 y=0.009661 z=0.074703 | Error=0.001954
+[INFO] [1755623268.732998388] [kalman_filter_node]: Corrected: x=0.047679 y=0.009417 z=0.073107 | Meas: x=0.048571 y=0.009747 z=0.074590 | Error=0.001762
+[INFO] [1755623268.831531966] [kalman_filter_node]: Corrected: x=0.047706 y=0.009422 z=0.073141 | Meas: x=0.048976 y=0.009667 z=0.074768 | Error=0.002079
+[INFO] [1755623268.931377474] [kalman_filter_node]: Corrected: x=0.047731 y=0.009427 z=0.073174 | Meas: x=0.048977 y=0.009686 z=0.074818 | Error=0.002078
+[INFO] [1755623269.030419806] [kalman_filter_node]: Corrected: x=0.047746 y=0.009433 z=0.073200 | Meas: x=0.048494 y=0.009693 z=0.074475 | Error=0.001501
+[INFO] [1755623269.130422796] [kalman_filter_node]: Corrected: x=0.047762 y=0.009438 z=0.073226 | Meas: x=0.048545 y=0.009696 z=0.074549 | Error=0.001560
+[INFO] [1755623269.230604714] [kalman_filter_node]: Corrected: x=0.047780 y=0.009442 z=0.073253 | Meas: x=0.048708 y=0.009689 z=0.074676 | Error=0.001717
+[INFO] [1755623269.330592676] [kalman_filter_node]: Corrected: x=0.047797 y=0.009447 z=0.073279 | Meas: x=0.048731 y=0.009678 z=0.074673 | Error=0.001693
+[INFO] [1755623269.430411477] [kalman_filter_node]: Corrected: x=0.047814 y=0.009451 z=0.073306 | Meas: x=0.048743 y=0.009688 z=0.074727 | Error=0.001714
+[INFO] [1755623269.530543793] [kalman_filter_node]: Corrected: x=0.047828 y=0.009456 z=0.073330 | Meas: x=0.048588 y=0.009697 z=0.074676 | Error=0.001564
+[INFO] [1755623269.629875369] [kalman_filter_node]: Corrected: x=0.047840 y=0.009462 z=0.073352 | Meas: x=0.048477 y=0.009817 z=0.074590 | Error=0.001437
+[INFO] [1755623269.730646140] [kalman_filter_node]: Corrected: x=0.047849 y=0.009468 z=0.073373 | Meas: x=0.048414 y=0.009810 z=0.074567 | Error=0.001365
+[INFO] [1755623269.831366790] [kalman_filter_node]: Corrected: x=0.047865 y=0.009471 z=0.073395 | Meas: x=0.048748 y=0.009671 z=0.074689 | Error=0.001579
+[INFO] [1755623269.931145894] [kalman_filter_node]: Corrected: x=0.047871 y=0.009475 z=0.073416 | Meas: x=0.048244 y=0.009681 z=0.074606 | Error=0.001265
+[INFO] [1755623270.032314144] [kalman_filter_node]: Corrected: x=0.047877 y=0.009478 z=0.073436 | Meas: x=0.048217 y=0.009645 z=0.074660 | Error=0.001281
+[INFO] [1755623270.130135915] [kalman_filter_node]: Corrected: x=0.047884 y=0.009480 z=0.073455 | Meas: x=0.048301 y=0.009637 z=0.074625 | Error=0.001252
+[INFO] [1755623270.229614636] [kalman_filter_node]: Corrected: x=0.047891 y=0.009483 z=0.073473 | Meas: x=0.048334 y=0.009642 z=0.074587 | Error=0.001209
+[INFO] [1755623270.330318151] [kalman_filter_node]: Corrected: x=0.047904 y=0.009485 z=0.073492 | Meas: x=0.048716 y=0.009603 z=0.074654 | Error=0.001424
+[INFO] [1755623270.432225289] [kalman_filter_node]: Corrected: x=0.047913 y=0.009486 z=0.073511 | Meas: x=0.048538 y=0.009599 z=0.074763 | Error=0.001404
+[INFO] [1755623270.529946437] [kalman_filter_node]: Corrected: x=0.047924 y=0.009488 z=0.073531 | Meas: x=0.048604 y=0.009589 z=0.074848 | Error=0.001485
+[INFO] [1755623270.629333297] [kalman_filter_node]: Corrected: x=0.047936 y=0.009491 z=0.073550 | Meas: x=0.048718 y=0.009671 z=0.074810 | Error=0.001494
+[INFO] [1755623270.729708504] [kalman_filter_node]: Corrected: x=0.047950 y=0.009493 z=0.073569 | Meas: x=0.048889 y=0.009628 z=0.074829 | Error=0.001578
+[INFO] [1755623270.828936930] [kalman_filter_node]: Corrected: x=0.047958 y=0.009495 z=0.073583 | Meas: x=0.048517 y=0.009662 z=0.074500 | Error=0.001087
+[INFO] [1755623270.929699051] [kalman_filter_node]: Corrected: x=0.047969 y=0.009497 z=0.073599 | Meas: x=0.048723 y=0.009652 z=0.074693 | Error=0.001338
+[INFO] [1755623271.030463548] [kalman_filter_node]: Corrected: x=0.047979 y=0.009499 z=0.073614 | Meas: x=0.048716 y=0.009622 z=0.074702 | Error=0.001320
+[INFO] [1755623271.129634076] [kalman_filter_node]: Corrected: x=0.047996 y=0.009501 z=0.073631 | Meas: x=0.049154 y=0.009609 z=0.074826 | Error=0.001668
+[INFO] [1755623271.231442614] [kalman_filter_node]: Corrected: x=0.048011 y=0.009503 z=0.073646 | Meas: x=0.049096 y=0.009648 z=0.074760 | Error=0.001562
+[INFO] [1755623271.329573119] [kalman_filter_node]: Corrected: x=0.048025 y=0.009505 z=0.073660 | Meas: x=0.049078 y=0.009661 z=0.074678 | Error=0.001473
+[INFO] [1755623271.429644540] [kalman_filter_node]: Corrected: x=0.048039 y=0.009507 z=0.073674 | Meas: x=0.049025 y=0.009689 z=0.074664 | Error=0.001410
+[INFO] [1755623271.529390855] [kalman_filter_node]: Corrected: x=0.048048 y=0.009509 z=0.073687 | Meas: x=0.048726 y=0.009650 z=0.074674 | Error=0.001206
+[INFO] [1755623271.629671702] [kalman_filter_node]: Corrected: x=0.048058 y=0.009511 z=0.073699 | Meas: x=0.048841 y=0.009668 z=0.074578 | Error=0.001189
+[INFO] [1755623271.729363196] [kalman_filter_node]: Corrected: x=0.048067 y=0.009513 z=0.073709 | Meas: x=0.048742 y=0.009677 z=0.074543 | Error=0.001085
+[INFO] [1755623271.829140729] [kalman_filter_node]: Corrected: x=0.048073 y=0.009515 z=0.073719 | Meas: x=0.048580 y=0.009667 z=0.074488 | Error=0.000934
+[INFO] [1755623271.929735322] [kalman_filter_node]: Corrected: x=0.048078 y=0.009517 z=0.073729 | Meas: x=0.048478 y=0.009642 z=0.074502 | Error=0.000879
+[INFO] [1755623272.029431237] [kalman_filter_node]: Corrected: x=0.048082 y=0.009519 z=0.073739 | Meas: x=0.048416 y=0.009665 z=0.074516 | Error=0.000858
+[INFO] [1755623272.129809690] [kalman_filter_node]: Corrected: x=0.048090 y=0.009520 z=0.073750 | Meas: x=0.048681 y=0.009615 z=0.074704 | Error=0.001126
+[INFO] [1755623272.230828911] [kalman_filter_node]: Corrected: x=0.048094 y=0.009520 z=0.073761 | Meas: x=0.048484 y=0.009531 z=0.074654 | Error=0.000974
+[INFO] [1755623272.329544058] [kalman_filter_node]: Corrected: x=0.048100 y=0.009520 z=0.073773 | Meas: x=0.048563 y=0.009511 z=0.074701 | Error=0.001037
+[INFO] [1755623272.429570918] [kalman_filter_node]: Corrected: x=0.048106 y=0.009520 z=0.073784 | Meas: x=0.048588 y=0.009493 z=0.074730 | Error=0.001063
+[INFO] [1755623272.529676838] [kalman_filter_node]: Corrected: x=0.048112 y=0.009520 z=0.073796 | Meas: x=0.048639 y=0.009528 z=0.074793 | Error=0.001128
+[INFO] [1755623272.630456467] [kalman_filter_node]: Corrected: x=0.048119 y=0.009520 z=0.073808 | Meas: x=0.048746 y=0.009523 z=0.074856 | Error=0.001222
+[INFO] [1755623272.730733453] [kalman_filter_node]: Corrected: x=0.048127 y=0.009520 z=0.073820 | Meas: x=0.048773 y=0.009577 z=0.074874 | Error=0.001238
+[INFO] [1755623272.830296148] [kalman_filter_node]: Corrected: x=0.048133 y=0.009522 z=0.073830 | Meas: x=0.048701 y=0.009686 z=0.074703 | Error=0.001055
+[WARN] [1755623272.929778049] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623272.930612786] [kalman_filter_node]: Corrected: x=0.048494 y=0.009650 z=0.074326 | Meas: x=0.048820 y=0.009636 z=0.074866 | Error=0.000631
+[WARN] [1755623273.030139159] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623273.030806335] [kalman_filter_node]: Corrected: x=0.048518 y=0.009666 z=0.074397 | Meas: x=0.048760 y=0.009663 z=0.074822 | Error=0.000489
+[WARN] [1755623273.130101477] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623273.130492194] [kalman_filter_node]: Corrected: x=0.048570 y=0.009676 z=0.074472 | Meas: x=0.048768 y=0.009684 z=0.074812 | Error=0.000394
+[WARN] [1755623273.229973667] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623273.230573340] [kalman_filter_node]: Corrected: x=0.048577 y=0.009723 z=0.074483 | Meas: x=0.048715 y=0.009757 z=0.074721 | Error=0.000277
+[WARN] [1755623273.329967377] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623273.330434649] [kalman_filter_node]: Corrected: x=0.048602 y=0.009746 z=0.074510 | Meas: x=0.048715 y=0.009788 z=0.074691 | Error=0.000217
+[WARN] [1755623273.429945441] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623273.430814492] [kalman_filter_node]: Corrected: x=0.048636 y=0.009717 z=0.074525 | Meas: x=0.048734 y=0.009727 z=0.074657 | Error=0.000165
+[WARN] [1755623273.529918721] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623273.530675661] [kalman_filter_node]: Corrected: x=0.048541 y=0.009722 z=0.074500 | Meas: x=0.048547 y=0.009732 z=0.074573 | Error=0.000074
+[WARN] [1755623273.629948866] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623273.630818969] [kalman_filter_node]: Corrected: x=0.048588 y=0.009684 z=0.074526 | Meas: x=0.048620 y=0.009673 z=0.074598 | Error=0.000079
+[WARN] [1755623273.729916969] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623273.730438432] [kalman_filter_node]: Corrected: x=0.048570 y=0.009653 z=0.074514 | Meas: x=0.048581 y=0.009624 z=0.074552 | Error=0.000049
+[WARN] [1755623273.829817193] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623273.830277626] [kalman_filter_node]: Corrected: x=0.048571 y=0.009652 z=0.074500 | Meas: x=0.048578 y=0.009632 z=0.074518 | Error=0.000028
+[WARN] [1755623273.929906370] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623273.930511269] [kalman_filter_node]: Corrected: x=0.048674 y=0.009631 z=0.074624 | Meas: x=0.048743 y=0.009605 z=0.074713 | Error=0.000116
+[WARN] [1755623274.029945246] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623274.030429997] [kalman_filter_node]: Corrected: x=0.048685 y=0.009614 z=0.074652 | Meas: x=0.048736 y=0.009578 z=0.074724 | Error=0.000095
+[WARN] [1755623274.129799622] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623274.130635309] [kalman_filter_node]: Corrected: x=0.048694 y=0.009546 z=0.074623 | Meas: x=0.048732 y=0.009479 z=0.074655 | Error=0.000084
+[WARN] [1755623274.229910208] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623274.230833033] [kalman_filter_node]: Corrected: x=0.048768 y=0.009549 z=0.074654 | Meas: x=0.048842 y=0.009508 z=0.074694 | Error=0.000094
+[WARN] [1755623274.329680098] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623274.330167497] [kalman_filter_node]: Corrected: x=0.048792 y=0.009580 z=0.074654 | Meas: x=0.048859 y=0.009567 z=0.074678 | Error=0.000072
+[WARN] [1755623274.429996693] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623274.430376752] [kalman_filter_node]: Corrected: x=0.048877 y=0.009563 z=0.074665 | Meas: x=0.048976 y=0.009544 z=0.074688 | Error=0.000104
+[WARN] [1755623274.529792817] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623274.530245426] [kalman_filter_node]: Corrected: x=0.048898 y=0.009575 z=0.074694 | Meas: x=0.048981 y=0.009567 z=0.074723 | Error=0.000088
+[WARN] [1755623274.629397679] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623274.629956277] [kalman_filter_node]: Corrected: x=0.048745 y=0.009619 z=0.074658 | Meas: x=0.048705 y=0.009639 z=0.074655 | Error=0.000044
+[WARN] [1755623274.729780026] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623274.730233769] [kalman_filter_node]: Corrected: x=0.048937 y=0.009599 z=0.074696 | Meas: x=0.049024 y=0.009609 z=0.074731 | Error=0.000094
+[WARN] [1755623274.829602355] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623274.830053025] [kalman_filter_node]: Corrected: x=0.048957 y=0.009603 z=0.074719 | Meas: x=0.049033 y=0.009605 z=0.074745 | Error=0.000080
+[WARN] [1755623274.929714812] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623274.930513022] [kalman_filter_node]: Corrected: x=0.048920 y=0.009627 z=0.074732 | Meas: x=0.048948 y=0.009642 z=0.074758 | Error=0.000041
+[WARN] [1755623275.029484256] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623275.030059547] [kalman_filter_node]: Corrected: x=0.048919 y=0.009617 z=0.074722 | Meas: x=0.048934 y=0.009623 z=0.074737 | Error=0.000023
+[WARN] [1755623275.129603444] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623275.130520112] [kalman_filter_node]: Corrected: x=0.048857 y=0.009621 z=0.074721 | Meas: x=0.048829 y=0.009628 z=0.074732 | Error=0.000031
+[WARN] [1755623275.229572887] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623275.230459490] [kalman_filter_node]: Corrected: x=0.048749 y=0.009599 z=0.074699 | Meas: x=0.048661 y=0.009594 z=0.074698 | Error=0.000088
+[WARN] [1755623275.329616673] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623275.330134263] [kalman_filter_node]: Corrected: x=0.048768 y=0.009610 z=0.074658 | Meas: x=0.048716 y=0.009618 z=0.074639 | Error=0.000056
+[WARN] [1755623275.429463739] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623275.429839323] [kalman_filter_node]: Corrected: x=0.048739 y=0.009620 z=0.074631 | Meas: x=0.048690 y=0.009632 z=0.074599 | Error=0.000060
+[WARN] [1755623275.529489048] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623275.530019434] [kalman_filter_node]: Corrected: x=0.048674 y=0.009625 z=0.074656 | Meas: x=0.048601 y=0.009637 z=0.074649 | Error=0.000074
+[WARN] [1755623275.629500636] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623275.630066208] [kalman_filter_node]: Corrected: x=0.048592 y=0.009687 z=0.074592 | Meas: x=0.048487 y=0.009734 z=0.074553 | Error=0.000122
+[WARN] [1755623275.729070517] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623275.729774226] [kalman_filter_node]: Corrected: x=0.048566 y=0.009748 z=0.074571 | Meas: x=0.048479 y=0.009823 z=0.074535 | Error=0.000121
+[WARN] [1755623275.829232510] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623275.829799247] [kalman_filter_node]: Corrected: x=0.048706 y=0.009765 z=0.074645 | Meas: x=0.048733 y=0.009828 z=0.074667 | Error=0.000072
+[WARN] [1755623275.929120789] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623275.929503204] [kalman_filter_node]: Corrected: x=0.048547 y=0.009807 z=0.074612 | Meas: x=0.048469 y=0.009867 z=0.074597 | Error=0.000100
+[WARN] [1755623276.029400313] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623276.029693751] [kalman_filter_node]: Corrected: x=0.048522 y=0.009851 z=0.074607 | Meas: x=0.048449 y=0.009927 z=0.074603 | Error=0.000106
+[WARN] [1755623276.129074062] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623276.129873501] [kalman_filter_node]: Corrected: x=0.048525 y=0.009898 z=0.074634 | Meas: x=0.048476 y=0.009979 z=0.074650 | Error=0.000096
+[WARN] [1755623276.229032940] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623276.229798766] [kalman_filter_node]: Corrected: x=0.048507 y=0.009966 z=0.074660 | Meas: x=0.048461 y=0.010063 z=0.074686 | Error=0.000110
+[WARN] [1755623276.328899977] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623276.329465433] [kalman_filter_node]: Corrected: x=0.048521 y=0.010062 z=0.074656 | Meas: x=0.048496 y=0.010188 z=0.074672 | Error=0.000129
+[WARN] [1755623276.428972397] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623276.429636603] [kalman_filter_node]: Corrected: x=0.048646 y=0.010142 z=0.074667 | Meas: x=0.048708 y=0.010278 z=0.074683 | Error=0.000150
+[WARN] [1755623276.530196982] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623276.530712184] [kalman_filter_node]: Corrected: x=0.048652 y=0.010206 z=0.074678 | Meas: x=0.048702 y=0.010333 z=0.074688 | Error=0.000137
+[WARN] [1755623276.630064594] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623276.630856703] [kalman_filter_node]: Corrected: x=0.048688 y=0.010307 z=0.074756 | Meas: x=0.048745 y=0.010457 z=0.074812 | Error=0.000170
+[WARN] [1755623276.730030888] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623276.730700191] [kalman_filter_node]: Corrected: x=0.048775 y=0.010333 z=0.074784 | Meas: x=0.048863 y=0.010450 z=0.074838 | Error=0.000156
+[WARN] [1755623276.830172187] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623276.830935597] [kalman_filter_node]: Corrected: x=0.048827 y=0.010424 z=0.074803 | Meas: x=0.048922 y=0.010557 z=0.074847 | Error=0.000169
+[WARN] [1755623276.930088731] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623276.930836162] [kalman_filter_node]: Corrected: x=0.048817 y=0.010508 z=0.074802 | Meas: x=0.048877 y=0.010649 z=0.074830 | Error=0.000156
+[WARN] [1755623277.029897787] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623277.030321069] [kalman_filter_node]: Corrected: x=0.048830 y=0.010594 z=0.074798 | Meas: x=0.048879 y=0.010746 z=0.074816 | Error=0.000161
+[WARN] [1755623277.129986283] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623277.130562478] [kalman_filter_node]: Corrected: x=0.048825 y=0.010762 z=0.074776 | Meas: x=0.048857 y=0.010970 z=0.074775 | Error=0.000211
+[WARN] [1755623277.229927073] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623277.230447864] [kalman_filter_node]: Corrected: x=0.048818 y=0.010884 z=0.074734 | Meas: x=0.048836 y=0.011105 z=0.074706 | Error=0.000223
+[WARN] [1755623277.329914471] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623277.330588894] [kalman_filter_node]: Corrected: x=0.048789 y=0.010966 z=0.074695 | Meas: x=0.048786 y=0.011171 z=0.074652 | Error=0.000209
+[WARN] [1755623277.429923162] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623277.430861926] [kalman_filter_node]: Corrected: x=0.048751 y=0.011065 z=0.074621 | Meas: x=0.048727 y=0.011268 z=0.074546 | Error=0.000218
+[WARN] [1755623277.529876168] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623277.530466623] [kalman_filter_node]: Corrected: x=0.048720 y=0.011175 z=0.074561 | Meas: x=0.048687 y=0.011387 z=0.074474 | Error=0.000231
+[WARN] [1755623277.629958499] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623277.630828052] [kalman_filter_node]: Corrected: x=0.048743 y=0.011177 z=0.074631 | Meas: x=0.048737 y=0.011326 z=0.074614 | Error=0.000150
+[WARN] [1755623277.729932567] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623277.730722740] [kalman_filter_node]: Corrected: x=0.048706 y=0.011313 z=0.074512 | Meas: x=0.048674 y=0.011495 z=0.074428 | Error=0.000203
+[WARN] [1755623277.829972757] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623277.830608830] [kalman_filter_node]: Corrected: x=0.048674 y=0.011353 z=0.074507 | Meas: x=0.048639 y=0.011508 z=0.074446 | Error=0.000171
+[WARN] [1755623277.930098372] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623277.931231329] [kalman_filter_node]: Corrected: x=0.048659 y=0.011391 z=0.074543 | Meas: x=0.048623 y=0.011522 z=0.074525 | Error=0.000137
+[WARN] [1755623278.029893410] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623278.030455779] [kalman_filter_node]: Corrected: x=0.048689 y=0.011402 z=0.074545 | Meas: x=0.048679 y=0.011497 z=0.074536 | Error=0.000096
+[WARN] [1755623278.129874789] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623278.130890265] [kalman_filter_node]: Corrected: x=0.048708 y=0.011475 z=0.074568 | Meas: x=0.048715 y=0.011582 z=0.074574 | Error=0.000108
+[WARN] [1755623278.229883335] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623278.230535052] [kalman_filter_node]: Corrected: x=0.048758 y=0.011541 z=0.074588 | Meas: x=0.048793 y=0.011655 z=0.074603 | Error=0.000120
+[WARN] [1755623278.329855120] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623278.330358801] [kalman_filter_node]: Corrected: x=0.048738 y=0.011598 z=0.074630 | Meas: x=0.048751 y=0.011708 z=0.074663 | Error=0.000116
+[WARN] [1755623278.428976434] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623278.429378393] [kalman_filter_node]: Corrected: x=0.048741 y=0.011636 z=0.074635 | Meas: x=0.048747 y=0.011735 z=0.074663 | Error=0.000104
+[WARN] [1755623278.528889140] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623278.529663279] [kalman_filter_node]: Corrected: x=0.048871 y=0.011724 z=0.074706 | Meas: x=0.048956 y=0.011847 z=0.074770 | Error=0.000162
+[WARN] [1755623278.629658912] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623278.630274355] [kalman_filter_node]: Corrected: x=0.048902 y=0.011805 z=0.074738 | Meas: x=0.048981 y=0.011932 z=0.074794 | Error=0.000160
+[WARN] [1755623278.729673912] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623278.730260821] [kalman_filter_node]: Corrected: x=0.048897 y=0.011900 z=0.074738 | Meas: x=0.048948 y=0.012045 z=0.074776 | Error=0.000158
+[WARN] [1755623278.829820481] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623278.830539376] [kalman_filter_node]: Corrected: x=0.048917 y=0.012039 z=0.074752 | Meas: x=0.048964 y=0.012225 z=0.074788 | Error=0.000196
+[WARN] [1755623278.929480918] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623278.930080568] [kalman_filter_node]: Corrected: x=0.048917 y=0.012133 z=0.074783 | Meas: x=0.048950 y=0.012319 z=0.074826 | Error=0.000194
+[WARN] [1755623279.029864204] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623279.030332226] [kalman_filter_node]: Corrected: x=0.048851 y=0.012267 z=0.074755 | Meas: x=0.048831 y=0.012477 z=0.074767 | Error=0.000212
+[WARN] [1755623279.129618890] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623279.130022931] [kalman_filter_node]: Corrected: x=0.048867 y=0.012373 z=0.074724 | Meas: x=0.048862 y=0.012588 z=0.074718 | Error=0.000215
+[WARN] [1755623279.230081237] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623279.230832701] [kalman_filter_node]: Corrected: x=0.048792 y=0.012482 z=0.074664 | Meas: x=0.048745 y=0.012697 z=0.074620 | Error=0.000225
+[WARN] [1755623279.329827338] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623279.330219063] [kalman_filter_node]: Corrected: x=0.048740 y=0.012577 z=0.074658 | Meas: x=0.048678 y=0.012788 z=0.074628 | Error=0.000223
+[WARN] [1755623279.429589706] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623279.430150713] [kalman_filter_node]: Corrected: x=0.048683 y=0.012663 z=0.074641 | Meas: x=0.048602 y=0.012864 z=0.074613 | Error=0.000218
+[WARN] [1755623279.529805204] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623279.530217948] [kalman_filter_node]: Corrected: x=0.048796 y=0.012636 z=0.074647 | Meas: x=0.048810 y=0.012758 z=0.074635 | Error=0.000124
+[WARN] [1755623279.629772056] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623279.630445887] [kalman_filter_node]: Corrected: x=0.048582 y=0.012793 z=0.074630 | Meas: x=0.048462 y=0.012969 z=0.074603 | Error=0.000215
+[WARN] [1755623279.729626413] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623279.730122946] [kalman_filter_node]: Corrected: x=0.048544 y=0.012812 z=0.074613 | Meas: x=0.048431 y=0.012955 z=0.074597 | Error=0.000183
+[WARN] [1755623279.829671571] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623279.830393820] [kalman_filter_node]: Corrected: x=0.048493 y=0.012872 z=0.074569 | Meas: x=0.048384 y=0.013006 z=0.074533 | Error=0.000177
+[WARN] [1755623279.929540249] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623279.930189728] [kalman_filter_node]: Corrected: x=0.048488 y=0.012932 z=0.074573 | Meas: x=0.048412 y=0.013063 z=0.074551 | Error=0.000153
+[WARN] [1755623280.029445196] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623280.030163681] [kalman_filter_node]: Corrected: x=0.048550 y=0.012957 z=0.074583 | Meas: x=0.048536 y=0.013062 z=0.074574 | Error=0.000106
+[WARN] [1755623280.129622665] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623280.130012968] [kalman_filter_node]: Corrected: x=0.048704 y=0.013031 z=0.074585 | Meas: x=0.048791 y=0.013145 z=0.074575 | Error=0.000144
+[WARN] [1755623280.230044437] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623280.230667974] [kalman_filter_node]: Corrected: x=0.048626 y=0.013085 z=0.074584 | Meas: x=0.048643 y=0.013191 z=0.074565 | Error=0.000109
+[WARN] [1755623280.331434632] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623280.331922978] [kalman_filter_node]: Corrected: x=0.048705 y=0.013154 z=0.074630 | Meas: x=0.048763 y=0.013272 z=0.074651 | Error=0.000134
+[WARN] [1755623280.431647329] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623280.432070523] [kalman_filter_node]: Corrected: x=0.048800 y=0.013211 z=0.074643 | Meas: x=0.048898 y=0.013324 z=0.074663 | Error=0.000151
+[WARN] [1755623280.531599802] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623280.532036813] [kalman_filter_node]: Corrected: x=0.048819 y=0.013338 z=0.074631 | Meas: x=0.048900 y=0.013491 z=0.074632 | Error=0.000173
+[WARN] [1755623280.631381527] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623280.632171666] [kalman_filter_node]: Corrected: x=0.048919 y=0.013468 z=0.074667 | Meas: x=0.049038 y=0.013653 z=0.074689 | Error=0.000222
+[WARN] [1755623280.731367131] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623280.732318275] [kalman_filter_node]: Corrected: x=0.048804 y=0.013497 z=0.074608 | Meas: x=0.048816 y=0.013639 z=0.074581 | Error=0.000145
+[WARN] [1755623280.831053801] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623280.831553381] [kalman_filter_node]: Corrected: x=0.049027 y=0.013679 z=0.074635 | Meas: x=0.049173 y=0.013896 z=0.074640 | Error=0.000261
+[WARN] [1755623280.931062538] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623280.931678229] [kalman_filter_node]: Corrected: x=0.049115 y=0.013741 z=0.074643 | Meas: x=0.049277 y=0.013920 z=0.074638 | Error=0.000241
+[WARN] [1755623281.030951859] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623281.031955232] [kalman_filter_node]: Corrected: x=0.049139 y=0.013816 z=0.074648 | Meas: x=0.049266 y=0.013982 z=0.074644 | Error=0.000210
+[WARN] [1755623281.131012762] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623281.132010711] [kalman_filter_node]: Corrected: x=0.049095 y=0.013915 z=0.074617 | Meas: x=0.049155 y=0.014092 z=0.074596 | Error=0.000187
+[WARN] [1755623281.231030506] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623281.231857363] [kalman_filter_node]: Corrected: x=0.048931 y=0.013881 z=0.074604 | Meas: x=0.048870 y=0.013985 z=0.074584 | Error=0.000121
+[WARN] [1755623281.330952436] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623281.331510788] [kalman_filter_node]: Corrected: x=0.048923 y=0.013976 z=0.074604 | Meas: x=0.048870 y=0.014111 z=0.074602 | Error=0.000145
+[WARN] [1755623281.430947339] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623281.431602277] [kalman_filter_node]: Corrected: x=0.048913 y=0.014158 z=0.074536 | Meas: x=0.048871 y=0.014363 z=0.074493 | Error=0.000214
+[WARN] [1755623281.530841113] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[WARN] [1755623281.630678994] [kalman_filter_node]: Uncertainty too high, waiting for measurement...
+[INFO] [1755623281.631241893] [kalman_filter_node]: Corrected: x=0.048791 y=0.014225 z=0.074498 | Meas: x=0.048693 y=0.014412 z=0.074441 | Error=0.000218
+[WARN] [1755623281.731217410] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623281.731554280] [kalman_filter_node]: Corrected: x=0.048768 y=0.014320 z=0.074454 | Meas: x=0.048684 y=0.014510 z=0.074393 | Error=0.000216
+[WARN] [1755623281.831246596] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623281.831964199] [kalman_filter_node]: Corrected: x=0.048743 y=0.014332 z=0.074475 | Meas: x=0.048671 y=0.014471 z=0.074445 | Error=0.000159
+[WARN] [1755623281.931228797] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623281.931737999] [kalman_filter_node]: Corrected: x=0.048860 y=0.014390 z=0.074527 | Meas: x=0.048881 y=0.014520 z=0.074542 | Error=0.000132
+[WARN] [1755623282.031217328] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623282.031892021] [kalman_filter_node]: Corrected: x=0.048722 y=0.014456 z=0.074500 | Meas: x=0.048650 y=0.014580 z=0.074487 | Error=0.000144
+[WARN] [1755623282.131149792] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623282.131471523] [kalman_filter_node]: Corrected: x=0.048726 y=0.014490 z=0.074542 | Meas: x=0.048677 y=0.014602 z=0.074567 | Error=0.000125
+[WARN] [1755623282.231088826] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623282.231555234] [kalman_filter_node]: Corrected: x=0.048790 y=0.014551 z=0.074593 | Meas: x=0.048794 y=0.014663 z=0.074642 | Error=0.000122
+[WARN] [1755623282.331072938] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623282.331571935] [kalman_filter_node]: Corrected: x=0.048822 y=0.014589 z=0.074686 | Meas: x=0.048843 y=0.014686 z=0.074774 | Error=0.000132
+[WARN] [1755623282.430989206] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623282.431572148] [kalman_filter_node]: Corrected: x=0.048832 y=0.014677 z=0.074589 | Meas: x=0.048847 y=0.014795 z=0.074590 | Error=0.000119
+[WARN] [1755623282.530950700] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623282.531468176] [kalman_filter_node]: Corrected: x=0.048925 y=0.014838 z=0.074656 | Meas: x=0.049001 y=0.015021 z=0.074695 | Error=0.000202
+[WARN] [1755623282.630380448] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623282.630937863] [kalman_filter_node]: Corrected: x=0.048960 y=0.014942 z=0.074638 | Meas: x=0.049034 y=0.015128 z=0.074649 | Error=0.000200
+[WARN] [1755623282.730018727] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623282.730616341] [kalman_filter_node]: Corrected: x=0.048937 y=0.015041 z=0.074663 | Meas: x=0.048976 y=0.015231 z=0.074683 | Error=0.000194
+[WARN] [1755623282.830120609] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623282.830759841] [kalman_filter_node]: Corrected: x=0.049017 y=0.015129 z=0.074667 | Meas: x=0.049092 y=0.015313 z=0.074685 | Error=0.000200
+[WARN] [1755623282.930106009] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623282.930461804] [kalman_filter_node]: Corrected: x=0.048972 y=0.015231 z=0.074637 | Meas: x=0.048998 y=0.015419 z=0.074628 | Error=0.000190
+[WARN] [1755623283.029960392] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623283.030622989] [kalman_filter_node]: Corrected: x=0.048931 y=0.015336 z=0.074613 | Meas: x=0.048924 y=0.015533 z=0.074594 | Error=0.000198
+[WARN] [1755623283.130010949] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623283.130702834] [kalman_filter_node]: Corrected: x=0.048896 y=0.015431 z=0.074574 | Meas: x=0.048870 y=0.015627 z=0.074538 | Error=0.000201
+[WARN] [1755623283.229853574] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623283.230472125] [kalman_filter_node]: Corrected: x=0.048849 y=0.015502 z=0.074505 | Meas: x=0.048804 y=0.015684 z=0.074438 | Error=0.000199
+[WARN] [1755623283.329972332] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623283.330923102] [kalman_filter_node]: Corrected: x=0.048807 y=0.015563 z=0.074481 | Meas: x=0.048752 y=0.015728 z=0.074422 | Error=0.000184
+[WARN] [1755623283.429895286] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623283.430518816] [kalman_filter_node]: Corrected: x=0.048798 y=0.015627 z=0.074436 | Meas: x=0.048755 y=0.015781 z=0.074370 | Error=0.000173
+[WARN] [1755623283.529729863] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623283.530713987] [kalman_filter_node]: Corrected: x=0.048786 y=0.015696 z=0.074438 | Meas: x=0.048750 y=0.015845 z=0.074393 | Error=0.000160
+[WARN] [1755623283.629840338] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623283.630343248] [kalman_filter_node]: Corrected: x=0.048769 y=0.015718 z=0.074426 | Meas: x=0.048733 y=0.015833 z=0.074388 | Error=0.000127
+[WARN] [1755623283.729990892] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623283.730522148] [kalman_filter_node]: Corrected: x=0.048881 y=0.015757 z=0.074490 | Meas: x=0.048925 y=0.015860 z=0.074505 | Error=0.000113
+[WARN] [1755623283.829719978] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623283.830233431] [kalman_filter_node]: Corrected: x=0.048881 y=0.015806 z=0.074508 | Meas: x=0.048910 y=0.015902 z=0.074525 | Error=0.000101
+[WARN] [1755623283.929971054] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623283.930451396] [kalman_filter_node]: Corrected: x=0.048907 y=0.015862 z=0.074479 | Meas: x=0.048942 y=0.015961 z=0.074473 | Error=0.000105
+[WARN] [1755623284.029537907] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623284.030266965] [kalman_filter_node]: Corrected: x=0.049014 y=0.015938 z=0.074530 | Meas: x=0.049105 y=0.016054 z=0.074556 | Error=0.000150
+[WARN] [1755623284.129525361] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623284.129875313] [kalman_filter_node]: Corrected: x=0.049051 y=0.016019 z=0.074544 | Meas: x=0.049137 y=0.016143 z=0.074565 | Error=0.000153
+[WARN] [1755623284.229681744] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623284.230128742] [kalman_filter_node]: Corrected: x=0.049133 y=0.016140 z=0.074575 | Meas: x=0.049243 y=0.016299 z=0.074608 | Error=0.000196
+[WARN] [1755623284.329648247] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623284.330241584] [kalman_filter_node]: Corrected: x=0.048962 y=0.016235 z=0.074496 | Meas: x=0.048934 y=0.016400 z=0.074466 | Error=0.000171
+[WARN] [1755623284.429760546] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623284.430474944] [kalman_filter_node]: Corrected: x=0.049251 y=0.016349 z=0.074571 | Meas: x=0.049411 y=0.016542 z=0.074605 | Error=0.000253
+[WARN] [1755623284.529879951] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623284.530250937] [kalman_filter_node]: Corrected: x=0.049259 y=0.016424 z=0.074572 | Meas: x=0.049375 y=0.016593 z=0.074583 | Error=0.000205
+[WARN] [1755623284.629480859] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623284.629962589] [kalman_filter_node]: Corrected: x=0.049295 y=0.016527 z=0.074600 | Meas: x=0.049398 y=0.016707 z=0.074625 | Error=0.000209
+[WARN] [1755623284.729680873] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623284.730044949] [kalman_filter_node]: Corrected: x=0.049268 y=0.016617 z=0.074563 | Meas: x=0.049320 y=0.016796 z=0.074556 | Error=0.000186
+[WARN] [1755623284.829818123] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623284.830246641] [kalman_filter_node]: Corrected: x=0.049239 y=0.016682 z=0.074557 | Meas: x=0.049259 y=0.016848 z=0.074551 | Error=0.000167
+[WARN] [1755623284.929413344] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623284.929920821] [kalman_filter_node]: Corrected: x=0.049056 y=0.016699 z=0.074534 | Meas: x=0.048956 y=0.016824 z=0.074517 | Error=0.000161
+[WARN] [1755623285.029436685] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623285.030312968] [kalman_filter_node]: Corrected: x=0.049099 y=0.016800 z=0.074492 | Meas: x=0.049054 y=0.016954 z=0.074463 | Error=0.000163
+[WARN] [1755623285.129394558] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623285.130009291] [kalman_filter_node]: Corrected: x=0.049034 y=0.016873 z=0.074451 | Meas: x=0.048967 y=0.017023 z=0.074402 | Error=0.000172
+[WARN] [1755623285.229247716] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623285.230234296] [kalman_filter_node]: Corrected: x=0.048962 y=0.016952 z=0.074443 | Meas: x=0.048872 y=0.017107 z=0.074406 | Error=0.000183
+[WARN] [1755623285.329388035] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623285.330131375] [kalman_filter_node]: Corrected: x=0.048875 y=0.017004 z=0.074400 | Meas: x=0.048758 y=0.017145 z=0.074350 | Error=0.000189
+[WARN] [1755623285.432346322] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623285.432773515] [kalman_filter_node]: Corrected: x=0.048807 y=0.017062 z=0.074371 | Meas: x=0.048685 y=0.017197 z=0.074322 | Error=0.000188
+[WARN] [1755623285.530427599] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623285.531146414] [kalman_filter_node]: Corrected: x=0.048968 y=0.017108 z=0.074456 | Meas: x=0.048984 y=0.017230 z=0.074477 | Error=0.000125
+[WARN] [1755623285.629928389] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623285.630442297] [kalman_filter_node]: Corrected: x=0.048961 y=0.017184 z=0.074463 | Meas: x=0.048965 y=0.017308 z=0.074476 | Error=0.000124
+[WARN] [1755623285.728950926] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623285.729820273] [kalman_filter_node]: Corrected: x=0.048725 y=0.017312 z=0.074376 | Meas: x=0.048582 y=0.017476 z=0.074331 | Error=0.000222
+[WARN] [1755623285.829171786] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623285.830175953] [kalman_filter_node]: Corrected: x=0.048720 y=0.017373 z=0.074391 | Meas: x=0.048620 y=0.017533 z=0.074378 | Error=0.000189
+[WARN] [1755623285.928993748] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623285.929566260] [kalman_filter_node]: Corrected: x=0.048741 y=0.017420 z=0.074418 | Meas: x=0.048684 y=0.017558 z=0.074426 | Error=0.000149
+[WARN] [1755623286.028942763] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623286.029482227] [kalman_filter_node]: Corrected: x=0.048769 y=0.017491 z=0.074453 | Meas: x=0.048745 y=0.017628 z=0.074478 | Error=0.000141
+[WARN] [1755623286.128947583] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623286.129561855] [kalman_filter_node]: Corrected: x=0.048816 y=0.017597 z=0.074501 | Meas: x=0.048827 y=0.017754 z=0.074548 | Error=0.000164
+[WARN] [1755623286.228995705] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623286.229809753] [kalman_filter_node]: Corrected: x=0.048860 y=0.017708 z=0.074529 | Meas: x=0.048894 y=0.017882 z=0.074577 | Error=0.000184
+[WARN] [1755623286.329055687] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623286.329798396] [kalman_filter_node]: Corrected: x=0.048933 y=0.017823 z=0.074567 | Meas: x=0.049001 y=0.018012 z=0.074622 | Error=0.000209
+[WARN] [1755623286.428924702] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623286.429392845] [kalman_filter_node]: Corrected: x=0.049019 y=0.017941 z=0.074570 | Meas: x=0.049119 y=0.018143 z=0.074606 | Error=0.000228
+[WARN] [1755623286.528788896] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623286.529200174] [kalman_filter_node]: Corrected: x=0.049061 y=0.018018 z=0.074589 | Meas: x=0.049159 y=0.018203 z=0.074622 | Error=0.000211
+[WARN] [1755623286.629273822] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623286.629862989] [kalman_filter_node]: Corrected: x=0.049135 y=0.018115 z=0.074571 | Meas: x=0.049248 y=0.018301 z=0.074581 | Error=0.000217
+[WARN] [1755623286.729151595] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623286.729680529] [kalman_filter_node]: Corrected: x=0.049013 y=0.018141 z=0.074482 | Meas: x=0.049018 y=0.018284 z=0.074431 | Error=0.000152
+[WARN] [1755623286.829143291] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623286.829599839] [kalman_filter_node]: Corrected: x=0.049006 y=0.018218 z=0.074457 | Meas: x=0.049008 y=0.018369 z=0.074412 | Error=0.000158
+[WARN] [1755623286.929234148] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623286.929728522] [kalman_filter_node]: Corrected: x=0.049111 y=0.018345 z=0.074453 | Meas: x=0.049177 y=0.018528 z=0.074418 | Error=0.000198
+[WARN] [1755623287.029217762] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623287.029754718] [kalman_filter_node]: Corrected: x=0.049076 y=0.018451 z=0.074409 | Meas: x=0.049104 y=0.018639 z=0.074353 | Error=0.000199
+[WARN] [1755623287.129183038] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623287.129674240] [kalman_filter_node]: Corrected: x=0.049077 y=0.018486 z=0.074378 | Meas: x=0.049099 y=0.018640 z=0.074321 | Error=0.000166
+[WARN] [1755623287.229277476] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623287.229837486] [kalman_filter_node]: Corrected: x=0.049031 y=0.018542 z=0.074354 | Meas: x=0.049017 y=0.018682 z=0.074301 | Error=0.000151
+[WARN] [1755623287.329003119] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623287.329568525] [kalman_filter_node]: Corrected: x=0.049004 y=0.018564 z=0.074339 | Meas: x=0.048977 y=0.018675 z=0.074295 | Error=0.000122
+[WARN] [1755623287.429097864] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623287.429516218] [kalman_filter_node]: Corrected: x=0.049035 y=0.018583 z=0.074414 | Meas: x=0.049035 y=0.018671 z=0.074432 | Error=0.000090
+[WARN] [1755623287.529799530] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623287.530454964] [kalman_filter_node]: Corrected: x=0.049054 y=0.018646 z=0.074399 | Meas: x=0.049059 y=0.018743 z=0.074404 | Error=0.000097
+[WARN] [1755623287.629898471] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623287.630328910] [kalman_filter_node]: Corrected: x=0.049001 y=0.018757 z=0.074312 | Meas: x=0.048973 y=0.018892 z=0.074260 | Error=0.000147
+[WARN] [1755623287.729435584] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623287.729727857] [kalman_filter_node]: Corrected: x=0.049001 y=0.018821 z=0.074343 | Meas: x=0.048989 y=0.018957 z=0.074325 | Error=0.000138
+[WARN] [1755623287.829069886] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623287.829632161] [kalman_filter_node]: Corrected: x=0.049025 y=0.018908 z=0.074373 | Meas: x=0.049028 y=0.019054 z=0.074380 | Error=0.000146
+[WARN] [1755623287.930019888] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623287.930585975] [kalman_filter_node]: Corrected: x=0.049049 y=0.018998 z=0.074388 | Meas: x=0.049065 y=0.019153 z=0.074402 | Error=0.000156
+[WARN] [1755623288.029966818] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623288.031004514] [kalman_filter_node]: Corrected: x=0.049068 y=0.019127 z=0.074434 | Meas: x=0.049091 y=0.019312 z=0.074471 | Error=0.000190
+[WARN] [1755623288.129910191] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623288.130315088] [kalman_filter_node]: Corrected: x=0.049096 y=0.019205 z=0.074484 | Meas: x=0.049127 y=0.019380 z=0.074540 | Error=0.000186
+[WARN] [1755623288.229914242] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623288.230825154] [kalman_filter_node]: Corrected: x=0.049141 y=0.019334 z=0.074499 | Meas: x=0.049187 y=0.019533 z=0.074546 | Error=0.000209
+[WARN] [1755623288.330135764] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623288.330837878] [kalman_filter_node]: Corrected: x=0.049129 y=0.019407 z=0.074533 | Meas: x=0.049155 y=0.019587 z=0.074584 | Error=0.000190
+[WARN] [1755623288.429666564] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623288.430510822] [kalman_filter_node]: Corrected: x=0.049175 y=0.019497 z=0.074539 | Meas: x=0.049219 y=0.019677 z=0.074580 | Error=0.000190
+[WARN] [1755623288.529683417] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623288.530517680] [kalman_filter_node]: Corrected: x=0.049179 y=0.019589 z=0.074516 | Meas: x=0.049213 y=0.019769 z=0.074528 | Error=0.000183
+[WARN] [1755623288.629761274] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623288.630622394] [kalman_filter_node]: Corrected: x=0.049099 y=0.019621 z=0.074417 | Meas: x=0.049075 y=0.019766 z=0.074363 | Error=0.000156
+[WARN] [1755623288.729780170] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623288.730272373] [kalman_filter_node]: Corrected: x=0.049109 y=0.019659 z=0.074396 | Meas: x=0.049104 y=0.019785 z=0.074348 | Error=0.000135
+[WARN] [1755623288.829908777] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623288.830614136] [kalman_filter_node]: Corrected: x=0.049121 y=0.019837 z=0.074431 | Meas: x=0.049125 y=0.020033 z=0.074419 | Error=0.000196
+[WARN] [1755623288.929994173] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623288.930663341] [kalman_filter_node]: Corrected: x=0.049051 y=0.019907 z=0.074391 | Meas: x=0.049011 y=0.020085 z=0.074356 | Error=0.000186
+[WARN] [1755623289.029895078] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623289.030420615] [kalman_filter_node]: Corrected: x=0.049007 y=0.019988 z=0.074352 | Meas: x=0.048954 y=0.020163 z=0.074305 | Error=0.000189
+[WARN] [1755623289.129420372] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623289.130077254] [kalman_filter_node]: Corrected: x=0.048932 y=0.020010 z=0.074372 | Meas: x=0.048851 y=0.020146 z=0.074354 | Error=0.000159
+[WARN] [1755623289.229458601] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623289.229860421] [kalman_filter_node]: Corrected: x=0.048850 y=0.020047 z=0.074327 | Meas: x=0.048740 y=0.020164 z=0.074291 | Error=0.000165
+[WARN] [1755623289.329671040] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623289.330329030] [kalman_filter_node]: Corrected: x=0.049042 y=0.020054 z=0.074371 | Meas: x=0.049086 y=0.020141 z=0.074375 | Error=0.000097
+[WARN] [1755623289.429716513] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623289.430207834] [kalman_filter_node]: Corrected: x=0.048867 y=0.020206 z=0.074307 | Meas: x=0.048787 y=0.020352 z=0.074266 | Error=0.000172
+[WARN] [1755623289.530396236] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623289.531243818] [kalman_filter_node]: Corrected: x=0.048856 y=0.020255 z=0.074297 | Meas: x=0.048799 y=0.020394 z=0.074266 | Error=0.000154
+[WARN] [1755623289.629857648] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623289.630770896] [kalman_filter_node]: Corrected: x=0.048847 y=0.020314 z=0.074327 | Meas: x=0.048801 y=0.020446 z=0.074324 | Error=0.000139
+[WARN] [1755623289.730384501] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623289.730836210] [kalman_filter_node]: Corrected: x=0.048844 y=0.020368 z=0.074375 | Meas: x=0.048808 y=0.020491 z=0.074404 | Error=0.000131
+[WARN] [1755623289.830007429] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623289.830597437] [kalman_filter_node]: Corrected: x=0.048871 y=0.020446 z=0.074371 | Meas: x=0.048860 y=0.020577 z=0.074390 | Error=0.000133
+[WARN] [1755623289.929665374] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623289.930298749] [kalman_filter_node]: Corrected: x=0.048951 y=0.020552 z=0.074482 | Meas: x=0.048994 y=0.020707 z=0.074561 | Error=0.000179
+[WARN] [1755623290.029621747] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623290.030406073] [kalman_filter_node]: Corrected: x=0.049027 y=0.020648 z=0.074636 | Meas: x=0.049097 y=0.020810 z=0.074786 | Error=0.000232
+[WARN] [1755623290.129492211] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623290.129922383] [kalman_filter_node]: Corrected: x=0.049123 y=0.020754 z=0.074645 | Meas: x=0.049221 y=0.020928 z=0.074754 | Error=0.000228
+[WARN] [1755623290.229557591] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623290.230161058] [kalman_filter_node]: Corrected: x=0.049155 y=0.020880 z=0.074699 | Meas: x=0.049245 y=0.021076 z=0.074803 | Error=0.000240
+[WARN] [1755623290.329454932] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623290.329885792] [kalman_filter_node]: Corrected: x=0.049235 y=0.020931 z=0.074720 | Meas: x=0.049346 y=0.021096 z=0.074806 | Error=0.000216
+[WARN] [1755623290.429656587] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623290.430137058] [kalman_filter_node]: Corrected: x=0.049271 y=0.020979 z=0.074777 | Meas: x=0.049369 y=0.021121 z=0.074869 | Error=0.000196
+[WARN] [1755623290.529516190] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623290.530060239] [kalman_filter_node]: Corrected: x=0.049175 y=0.021015 z=0.074681 | Meas: x=0.049180 y=0.021133 z=0.074686 | Error=0.000119
+[WARN] [1755623290.629095370] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623290.629797347] [kalman_filter_node]: Corrected: x=0.049390 y=0.021204 z=0.074758 | Meas: x=0.049533 y=0.021406 z=0.074810 | Error=0.000253
+[WARN] [1755623290.729215758] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623290.730028263] [kalman_filter_node]: Corrected: x=0.049380 y=0.021326 z=0.074705 | Meas: x=0.049470 y=0.021535 z=0.074701 | Error=0.000228
+[WARN] [1755623290.829423638] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623290.830009022] [kalman_filter_node]: Corrected: x=0.049419 y=0.021386 z=0.074701 | Meas: x=0.049511 y=0.021570 z=0.074694 | Error=0.000205
+[WARN] [1755623290.928900228] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623290.929615579] [kalman_filter_node]: Corrected: x=0.049366 y=0.021429 z=0.074668 | Meas: x=0.049396 y=0.021581 z=0.074643 | Error=0.000157
+[WARN] [1755623291.029029985] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623291.029903172] [kalman_filter_node]: Corrected: x=0.049247 y=0.021381 z=0.074679 | Meas: x=0.049195 y=0.021457 z=0.074670 | Error=0.000093
+[WARN] [1755623291.128928456] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623291.129599711] [kalman_filter_node]: Corrected: x=0.049225 y=0.021456 z=0.074676 | Meas: x=0.049172 y=0.021557 z=0.074675 | Error=0.000114
+[WARN] [1755623291.228927317] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623291.229651307] [kalman_filter_node]: Corrected: x=0.049231 y=0.021636 z=0.074588 | Meas: x=0.049197 y=0.021816 z=0.074532 | Error=0.000192
+[WARN] [1755623291.328971512] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623291.329716116] [kalman_filter_node]: Corrected: x=0.049181 y=0.021702 z=0.074583 | Meas: x=0.049135 y=0.021869 z=0.074535 | Error=0.000180
+[WARN] [1755623291.428788268] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623291.429532068] [kalman_filter_node]: Corrected: x=0.049133 y=0.021746 z=0.074567 | Meas: x=0.049072 y=0.021889 z=0.074526 | Error=0.000161
+[WARN] [1755623291.528958420] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623291.529430721] [kalman_filter_node]: Corrected: x=0.049093 y=0.021854 z=0.074524 | Meas: x=0.049026 y=0.022020 z=0.074471 | Error=0.000187
+[WARN] [1755623291.628824722] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623291.629759202] [kalman_filter_node]: Corrected: x=0.049084 y=0.021939 z=0.074509 | Meas: x=0.049035 y=0.022107 z=0.074462 | Error=0.000181
+[WARN] [1755623291.728805325] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623291.729103761] [kalman_filter_node]: Corrected: x=0.049065 y=0.022038 z=0.074538 | Meas: x=0.049020 y=0.022215 z=0.074523 | Error=0.000183
+[WARN] [1755623291.829855486] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623291.830388970] [kalman_filter_node]: Corrected: x=0.049083 y=0.022070 z=0.074545 | Meas: x=0.049061 y=0.022212 z=0.074541 | Error=0.000143
+[WARN] [1755623291.929721877] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623291.930234192] [kalman_filter_node]: Corrected: x=0.049136 y=0.022152 z=0.074605 | Meas: x=0.049153 y=0.022298 z=0.074639 | Error=0.000151
+[WARN] [1755623292.029849112] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623292.030466652] [kalman_filter_node]: Corrected: x=0.049142 y=0.022212 z=0.074629 | Meas: x=0.049154 y=0.022347 z=0.074668 | Error=0.000141
+[WARN] [1755623292.129797759] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623292.130636981] [kalman_filter_node]: Corrected: x=0.049190 y=0.022288 z=0.074652 | Meas: x=0.049226 y=0.022428 z=0.074693 | Error=0.000150
+[WARN] [1755623292.229709089] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623292.230307066] [kalman_filter_node]: Corrected: x=0.049199 y=0.022336 z=0.074695 | Meas: x=0.049229 y=0.022460 z=0.074749 | Error=0.000139
+[WARN] [1755623292.329659152] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623292.330267154] [kalman_filter_node]: Corrected: x=0.049229 y=0.022416 z=0.074764 | Meas: x=0.049265 y=0.022551 z=0.074845 | Error=0.000161
+[WARN] [1755623292.429667968] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623292.430447739] [kalman_filter_node]: Corrected: x=0.049253 y=0.022486 z=0.074792 | Meas: x=0.049289 y=0.022620 z=0.074867 | Error=0.000158
+[WARN] [1755623292.529667211] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623292.530197732] [kalman_filter_node]: Corrected: x=0.049286 y=0.022575 z=0.074782 | Meas: x=0.049330 y=0.022721 z=0.074826 | Error=0.000159
+[WARN] [1755623292.629325813] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623292.629794395] [kalman_filter_node]: Corrected: x=0.049279 y=0.022637 z=0.074781 | Meas: x=0.049308 y=0.022776 z=0.074809 | Error=0.000145
+[WARN] [1755623292.729513311] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623292.730324471] [kalman_filter_node]: Corrected: x=0.049271 y=0.022740 z=0.074757 | Meas: x=0.049287 y=0.022899 z=0.074762 | Error=0.000160
+[WARN] [1755623292.829619359] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623292.830267995] [kalman_filter_node]: Corrected: x=0.049233 y=0.022836 z=0.074738 | Meas: x=0.049221 y=0.023006 z=0.074729 | Error=0.000171
+[WARN] [1755623292.930099086] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623292.930539568] [kalman_filter_node]: Corrected: x=0.049205 y=0.022879 z=0.074689 | Meas: x=0.049181 y=0.023023 z=0.074652 | Error=0.000151
+[WARN] [1755623293.029825560] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623293.030053669] [kalman_filter_node]: Corrected: x=0.049197 y=0.022921 z=0.074676 | Meas: x=0.049179 y=0.023047 z=0.074642 | Error=0.000132
+[WARN] [1755623293.130000700] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623293.130333155] [kalman_filter_node]: Corrected: x=0.049155 y=0.022994 z=0.074617 | Meas: x=0.049117 y=0.023126 z=0.074557 | Error=0.000150
+[WARN] [1755623293.230651606] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623293.231039368] [kalman_filter_node]: Corrected: x=0.049117 y=0.023095 z=0.074561 | Meas: x=0.049070 y=0.023249 z=0.074486 | Error=0.000178
+[WARN] [1755623293.330461741] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623293.330742729] [kalman_filter_node]: Corrected: x=0.049129 y=0.023234 z=0.074523 | Meas: x=0.049108 y=0.023428 z=0.074445 | Error=0.000210
+[WARN] [1755623293.430384835] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623293.430730706] [kalman_filter_node]: Corrected: x=0.049133 y=0.023319 z=0.074497 | Meas: x=0.049125 y=0.023506 z=0.074424 | Error=0.000201
+[WARN] [1755623293.530188960] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623293.530537655] [kalman_filter_node]: Corrected: x=0.049163 y=0.023338 z=0.074490 | Meas: x=0.049176 y=0.023478 z=0.074435 | Error=0.000151
+[WARN] [1755623293.630155520] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623293.630411416] [kalman_filter_node]: Corrected: x=0.049251 y=0.023399 z=0.074588 | Meas: x=0.049312 y=0.023532 z=0.074612 | Error=0.000148
+[WARN] [1755623293.729586249] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623293.730116492] [kalman_filter_node]: Corrected: x=0.049246 y=0.023442 z=0.074558 | Meas: x=0.049279 y=0.023555 z=0.074558 | Error=0.000118
+[WARN] [1755623293.830198311] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623293.830675604] [kalman_filter_node]: Corrected: x=0.049298 y=0.023533 z=0.074545 | Meas: x=0.049353 y=0.023669 z=0.074538 | Error=0.000147
+[WARN] [1755623293.930104388] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623293.930633118] [kalman_filter_node]: Corrected: x=0.049321 y=0.023596 z=0.074598 | Meas: x=0.049375 y=0.023727 z=0.074624 | Error=0.000144
+[WARN] [1755623294.030425801] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623294.030795061] [kalman_filter_node]: Corrected: x=0.049268 y=0.023692 z=0.074587 | Meas: x=0.049269 y=0.023841 z=0.074598 | Error=0.000149
+[WARN] [1755623294.131364842] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623294.131825716] [kalman_filter_node]: Corrected: x=0.049272 y=0.023774 z=0.074593 | Meas: x=0.049276 y=0.023928 z=0.074606 | Error=0.000155
+[WARN] [1755623294.230024413] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623294.230417477] [kalman_filter_node]: Corrected: x=0.049482 y=0.023846 z=0.074623 | Meas: x=0.049615 y=0.023997 z=0.074649 | Error=0.000202
+[WARN] [1755623294.331435271] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623294.332372499] [kalman_filter_node]: Corrected: x=0.049066 y=0.023941 z=0.074540 | Meas: x=0.048897 y=0.024099 z=0.074503 | Error=0.000234
+[WARN] [1755623294.431305939] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623294.432054419] [kalman_filter_node]: Corrected: x=0.049036 y=0.023979 z=0.074543 | Meas: x=0.048908 y=0.024122 z=0.074526 | Error=0.000193
+[WARN] [1755623294.530460585] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623294.531054666] [kalman_filter_node]: Corrected: x=0.048994 y=0.024059 z=0.074546 | Meas: x=0.048878 y=0.024205 z=0.074537 | Error=0.000187
+[WARN] [1755623294.630170130] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623294.630806451] [kalman_filter_node]: Corrected: x=0.049360 y=0.024166 z=0.074619 | Meas: x=0.049507 y=0.024334 z=0.074658 | Error=0.000226
+[WARN] [1755623294.731343958] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623294.731912685] [kalman_filter_node]: Corrected: x=0.049117 y=0.024166 z=0.074795 | Meas: x=0.049057 y=0.024276 z=0.074926 | Error=0.000181
+[WARN] [1755623294.830621848] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623294.831088751] [kalman_filter_node]: Corrected: x=0.049164 y=0.024245 z=0.074823 | Meas: x=0.049144 y=0.024370 z=0.074940 | Error=0.000173
+[WARN] [1755623294.930064250] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623294.930490882] [kalman_filter_node]: Corrected: x=0.049349 y=0.024431 z=0.074791 | Meas: x=0.049449 y=0.024631 z=0.074852 | Error=0.000232
+[WARN] [1755623295.029016825] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623295.029512854] [kalman_filter_node]: Corrected: x=0.049330 y=0.024524 z=0.074793 | Meas: x=0.049386 y=0.024719 z=0.074831 | Error=0.000206
+[WARN] [1755623295.131258448] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623295.131928961] [kalman_filter_node]: Corrected: x=0.049312 y=0.024558 z=0.074868 | Meas: x=0.049341 y=0.024712 z=0.074941 | Error=0.000174
+[WARN] [1755623295.231084463] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623295.231946210] [kalman_filter_node]: Corrected: x=0.049352 y=0.024646 z=0.074897 | Meas: x=0.049394 y=0.024807 z=0.074967 | Error=0.000180
+[WARN] [1755623295.329091014] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623295.329865340] [kalman_filter_node]: Corrected: x=0.049209 y=0.024719 z=0.074798 | Meas: x=0.049148 y=0.024874 z=0.074785 | Error=0.000167
+[WARN] [1755623295.430066086] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623295.430775912] [kalman_filter_node]: Corrected: x=0.049467 y=0.024887 z=0.074906 | Meas: x=0.049591 y=0.025100 z=0.074963 | Error=0.000254
+[WARN] [1755623295.529894816] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623295.530546394] [kalman_filter_node]: Corrected: x=0.049554 y=0.024963 z=0.074937 | Meas: x=0.049682 y=0.025152 z=0.074993 | Error=0.000236
+[WARN] [1755623295.630804815] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623295.631163889] [kalman_filter_node]: Corrected: x=0.049601 y=0.025040 z=0.074948 | Meas: x=0.049716 y=0.025217 z=0.074992 | Error=0.000216
+[WARN] [1755623295.729901471] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623295.730411197] [kalman_filter_node]: Corrected: x=0.049614 y=0.025124 z=0.074964 | Meas: x=0.049702 y=0.025297 z=0.075005 | Error=0.000198
+[WARN] [1755623295.829777012] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623295.830622858] [kalman_filter_node]: Corrected: x=0.049291 y=0.025072 z=0.074886 | Meas: x=0.049151 y=0.025160 z=0.074865 | Error=0.000166
+[WARN] [1755623295.929787616] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623295.930519642] [kalman_filter_node]: Corrected: x=0.049290 y=0.025174 z=0.074878 | Meas: x=0.049202 y=0.025299 z=0.074863 | Error=0.000154
+[WARN] [1755623296.029812276] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623296.030481191] [kalman_filter_node]: Corrected: x=0.049395 y=0.025255 z=0.074895 | Meas: x=0.049398 y=0.025391 z=0.074895 | Error=0.000136
+[WARN] [1755623296.129678658] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623296.130675586] [kalman_filter_node]: Corrected: x=0.049324 y=0.025263 z=0.074914 | Meas: x=0.049280 y=0.025360 z=0.074923 | Error=0.000107
+[WARN] [1755623296.229844349] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623296.230800360] [kalman_filter_node]: Corrected: x=0.049374 y=0.025345 z=0.074924 | Meas: x=0.049376 y=0.025463 z=0.074939 | Error=0.000119
+[WARN] [1755623296.329786627] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623296.330283534] [kalman_filter_node]: Corrected: x=0.049418 y=0.025448 z=0.074948 | Meas: x=0.049444 y=0.025591 z=0.074973 | Error=0.000148
+[WARN] [1755623296.429729326] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623296.430449131] [kalman_filter_node]: Corrected: x=0.049471 y=0.025507 z=0.074996 | Meas: x=0.049520 y=0.025642 z=0.075042 | Error=0.000151
+[WARN] [1755623296.529806195] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623296.530092351] [kalman_filter_node]: Corrected: x=0.049492 y=0.025584 z=0.074981 | Meas: x=0.049535 y=0.025723 z=0.075004 | Error=0.000148
+[WARN] [1755623296.629583469] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623296.630609915] [kalman_filter_node]: Corrected: x=0.049526 y=0.025651 z=0.074968 | Meas: x=0.049579 y=0.025788 z=0.074975 | Error=0.000147
+[WARN] [1755623296.729678174] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623296.730469261] [kalman_filter_node]: Corrected: x=0.049576 y=0.025755 z=0.074951 | Meas: x=0.049643 y=0.025914 z=0.074944 | Error=0.000173
+[WARN] [1755623296.829589547] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623296.830151808] [kalman_filter_node]: Corrected: x=0.049453 y=0.025807 z=0.074879 | Meas: x=0.049424 y=0.025948 z=0.074829 | Error=0.000153
+[WARN] [1755623296.929830483] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623296.930000264] [kalman_filter_node]: Corrected: x=0.049530 y=0.025962 z=0.074884 | Meas: x=0.049563 y=0.026156 z=0.074852 | Error=0.000200
+[WARN] [1755623297.029678561] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623297.030283963] [kalman_filter_node]: Corrected: x=0.049558 y=0.026060 z=0.074847 | Meas: x=0.049594 y=0.026254 z=0.074800 | Error=0.000203
+[WARN] [1755623297.129667282] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623297.130464598] [kalman_filter_node]: Corrected: x=0.049498 y=0.026177 z=0.074789 | Meas: x=0.049488 y=0.026382 z=0.074721 | Error=0.000216
+[WARN] [1755623297.229635743] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623297.230161612] [kalman_filter_node]: Corrected: x=0.049416 y=0.026231 z=0.074879 | Meas: x=0.049362 y=0.026408 z=0.074886 | Error=0.000185
+[WARN] [1755623297.329598802] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623297.330217678] [kalman_filter_node]: Corrected: x=0.049460 y=0.026294 z=0.074913 | Meas: x=0.049444 y=0.026454 z=0.074942 | Error=0.000164
+[WARN] [1755623297.429472765] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623297.429798079] [kalman_filter_node]: Corrected: x=0.049430 y=0.026424 z=0.074730 | Meas: x=0.049400 y=0.026613 z=0.074636 | Error=0.000214
+[WARN] [1755623297.529485583] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623297.529911162] [kalman_filter_node]: Corrected: x=0.049455 y=0.026395 z=0.074842 | Meas: x=0.049458 y=0.026509 z=0.074842 | Error=0.000114
+[WARN] [1755623297.629980489] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623297.630344512] [kalman_filter_node]: Corrected: x=0.049366 y=0.026505 z=0.074716 | Meas: x=0.049308 y=0.026651 z=0.074641 | Error=0.000173
+[WARN] [1755623297.729279873] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623297.730047910] [kalman_filter_node]: Corrected: x=0.049371 y=0.026557 z=0.074712 | Meas: x=0.049342 y=0.026691 z=0.074656 | Error=0.000148
+[WARN] [1755623297.829391963] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623297.830115830] [kalman_filter_node]: Corrected: x=0.049383 y=0.026643 z=0.074697 | Meas: x=0.049371 y=0.026787 z=0.074649 | Error=0.000153
+[WARN] [1755623297.929666558] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623297.930245249] [kalman_filter_node]: Corrected: x=0.049429 y=0.026758 z=0.074815 | Meas: x=0.049448 y=0.026928 z=0.074855 | Error=0.000176
+[WARN] [1755623298.029384922] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623298.030089194] [kalman_filter_node]: Corrected: x=0.049433 y=0.026727 z=0.074767 | Meas: x=0.049441 y=0.026824 z=0.074766 | Error=0.000098
+[WARN] [1755623298.129358006] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623298.130224673] [kalman_filter_node]: Corrected: x=0.049435 y=0.026840 z=0.074801 | Meas: x=0.049447 y=0.026976 z=0.074821 | Error=0.000138
+[WARN] [1755623298.229358393] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623298.230019428] [kalman_filter_node]: Corrected: x=0.049423 y=0.026828 z=0.074778 | Meas: x=0.049421 y=0.026914 z=0.074778 | Error=0.000086
+[WARN] [1755623298.329348704] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623298.329867316] [kalman_filter_node]: Corrected: x=0.049523 y=0.026951 z=0.074830 | Meas: x=0.049587 y=0.027086 z=0.074862 | Error=0.000153
+[WARN] [1755623298.429411618] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623298.430147682] [kalman_filter_node]: Corrected: x=0.049354 y=0.027070 z=0.074730 | Meas: x=0.049288 y=0.027236 z=0.074690 | Error=0.000183
+[WARN] [1755623298.529298062] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623298.530053328] [kalman_filter_node]: Corrected: x=0.049318 y=0.027167 z=0.074676 | Meas: x=0.049256 y=0.027346 z=0.074614 | Error=0.000199
+[WARN] [1755623298.629492700] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623298.629638366] [kalman_filter_node]: Corrected: x=0.049549 y=0.027225 z=0.074878 | Meas: x=0.049652 y=0.027384 z=0.074959 | Error=0.000206
+[WARN] [1755623298.729365535] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623298.729719682] [kalman_filter_node]: Corrected: x=0.049548 y=0.027362 z=0.074900 | Meas: x=0.049606 y=0.027552 z=0.074967 | Error=0.000210
+[WARN] [1755623298.829187950] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623298.829863205] [kalman_filter_node]: Corrected: x=0.049488 y=0.027375 z=0.074788 | Meas: x=0.049488 y=0.027515 z=0.074764 | Error=0.000143
+[WARN] [1755623298.929226204] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623298.929637877] [kalman_filter_node]: Corrected: x=0.049428 y=0.027468 z=0.074742 | Meas: x=0.049400 y=0.027623 z=0.074698 | Error=0.000163
+[WARN] [1755623299.029158598] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623299.029728919] [kalman_filter_node]: Corrected: x=0.049447 y=0.027491 z=0.074786 | Meas: x=0.049441 y=0.027613 z=0.074782 | Error=0.000122
+[WARN] [1755623299.129236350] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623299.130011354] [kalman_filter_node]: Corrected: x=0.049504 y=0.027577 z=0.074801 | Meas: x=0.049533 y=0.027712 z=0.074809 | Error=0.000139
+[WARN] [1755623299.229099293] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623299.229735509] [kalman_filter_node]: Corrected: x=0.049582 y=0.027669 z=0.074827 | Meas: x=0.049649 y=0.027819 z=0.074848 | Error=0.000165
+[WARN] [1755623299.329184244] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623299.329649824] [kalman_filter_node]: Corrected: x=0.049610 y=0.027731 z=0.074849 | Meas: x=0.049671 y=0.027871 z=0.074876 | Error=0.000155
+[WARN] [1755623299.428906384] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623299.429290362] [kalman_filter_node]: Corrected: x=0.049640 y=0.027757 z=0.074902 | Meas: x=0.049700 y=0.027868 z=0.074953 | Error=0.000137
+[WARN] [1755623299.529055797] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623299.529776246] [kalman_filter_node]: Corrected: x=0.049487 y=0.027816 z=0.074849 | Meas: x=0.049432 y=0.027930 z=0.074851 | Error=0.000126
+[WARN] [1755623299.629142181] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623299.629582436] [kalman_filter_node]: Corrected: x=0.049739 y=0.027935 z=0.074918 | Meas: x=0.049860 y=0.028088 z=0.074964 | Error=0.000201
+[WARN] [1755623299.730089619] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623299.730594370] [kalman_filter_node]: Corrected: x=0.049745 y=0.028037 z=0.074896 | Meas: x=0.049825 y=0.028202 z=0.074910 | Error=0.000184
+[WARN] [1755623299.829963968] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623299.830878201] [kalman_filter_node]: Corrected: x=0.049754 y=0.028116 z=0.074864 | Meas: x=0.049815 y=0.028279 z=0.074854 | Error=0.000175
+[WARN] [1755623299.929950892] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623299.930487179] [kalman_filter_node]: Corrected: x=0.049305 y=0.028143 z=0.074758 | Meas: x=0.049071 y=0.028272 z=0.074685 | Error=0.000276
+[WARN] [1755623300.030863849] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623300.031837847] [kalman_filter_node]: Corrected: x=0.049710 y=0.028211 z=0.074854 | Meas: x=0.049805 y=0.028348 z=0.074866 | Error=0.000168
+[WARN] [1755623300.129942185] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623300.130599572] [kalman_filter_node]: Corrected: x=0.049510 y=0.028260 z=0.074814 | Meas: x=0.049438 y=0.028381 z=0.074793 | Error=0.000143
+[WARN] [1755623300.229899109] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623300.230757523] [kalman_filter_node]: Corrected: x=0.049341 y=0.028332 z=0.074819 | Meas: x=0.049192 y=0.028462 z=0.074810 | Error=0.000197
+[WARN] [1755623300.329957833] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623300.330680310] [kalman_filter_node]: Corrected: x=0.049553 y=0.028518 z=0.074747 | Meas: x=0.049582 y=0.028725 z=0.074698 | Error=0.000214
+[WARN] [1755623300.430018746] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623300.430619154] [kalman_filter_node]: Corrected: x=0.049533 y=0.028582 z=0.074752 | Meas: x=0.049534 y=0.028761 z=0.074720 | Error=0.000182
+[WARN] [1755623300.529948186] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623300.530801896] [kalman_filter_node]: Corrected: x=0.049495 y=0.028673 z=0.074703 | Meas: x=0.049473 y=0.028851 z=0.074651 | Error=0.000187
+[WARN] [1755623300.629922742] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623300.630483506] [kalman_filter_node]: Corrected: x=0.049426 y=0.028746 z=0.074663 | Meas: x=0.049370 y=0.028915 z=0.074603 | Error=0.000188
+[WARN] [1755623300.729803814] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623300.730160253] [kalman_filter_node]: Corrected: x=0.049392 y=0.028837 z=0.074658 | Meas: x=0.049337 y=0.029010 z=0.074614 | Error=0.000187
+[WARN] [1755623300.829807082] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623300.830316602] [kalman_filter_node]: Corrected: x=0.049349 y=0.028860 z=0.074673 | Meas: x=0.049284 y=0.028994 z=0.074651 | Error=0.000151
+[WARN] [1755623300.929814171] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623300.930619692] [kalman_filter_node]: Corrected: x=0.049492 y=0.028927 z=0.074744 | Meas: x=0.049538 y=0.029060 z=0.074773 | Error=0.000144
+[WARN] [1755623301.030606779] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623301.031112239] [kalman_filter_node]: Corrected: x=0.049299 y=0.029017 z=0.074684 | Meas: x=0.049203 y=0.029163 z=0.074667 | Error=0.000175
+[WARN] [1755623301.131786570] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623301.132126275] [kalman_filter_node]: Corrected: x=0.049299 y=0.029058 z=0.074718 | Meas: x=0.049240 y=0.029188 z=0.074727 | Error=0.000142
+[WARN] [1755623301.231838408] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623301.232228387] [kalman_filter_node]: Corrected: x=0.049273 y=0.029102 z=0.074729 | Meas: x=0.049215 y=0.029217 z=0.074743 | Error=0.000130
+[WARN] [1755623301.329639184] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623301.330355563] [kalman_filter_node]: Corrected: x=0.049267 y=0.029175 z=0.074716 | Meas: x=0.049225 y=0.029299 z=0.074718 | Error=0.000131
+[WARN] [1755623301.429756020] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623301.430645685] [kalman_filter_node]: Corrected: x=0.049333 y=0.029253 z=0.074749 | Meas: x=0.049345 y=0.029387 z=0.074770 | Error=0.000136
+[WARN] [1755623301.528712279] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623301.529143974] [kalman_filter_node]: Corrected: x=0.049584 y=0.029377 z=0.074716 | Meas: x=0.049744 y=0.029544 z=0.074710 | Error=0.000231
+[WARN] [1755623301.628741840] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623301.629292566] [kalman_filter_node]: Corrected: x=0.049472 y=0.029385 z=0.074774 | Meas: x=0.049505 y=0.029502 z=0.074805 | Error=0.000126
+[WARN] [1755623301.728752435] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623301.729466338] [kalman_filter_node]: Corrected: x=0.049435 y=0.029471 z=0.074844 | Meas: x=0.049437 y=0.029605 z=0.074910 | Error=0.000150
+[WARN] [1755623301.828635397] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623301.829041615] [kalman_filter_node]: Corrected: x=0.049500 y=0.029534 z=0.074844 | Meas: x=0.049538 y=0.029666 z=0.074889 | Error=0.000145
+[WARN] [1755623301.929598509] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623301.930049651] [kalman_filter_node]: Corrected: x=0.049577 y=0.029629 z=0.074887 | Meas: x=0.049651 y=0.029777 z=0.074944 | Error=0.000176
+[WARN] [1755623302.031438479] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623302.032152503] [kalman_filter_node]: Corrected: x=0.049598 y=0.029734 z=0.074887 | Meas: x=0.049657 y=0.029901 z=0.074926 | Error=0.000181
+[WARN] [1755623302.129495998] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623302.130079967] [kalman_filter_node]: Corrected: x=0.049432 y=0.029789 z=0.074718 | Meas: x=0.049369 y=0.029937 z=0.074639 | Error=0.000180
+[WARN] [1755623302.229492761] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623302.229835123] [kalman_filter_node]: Corrected: x=0.049509 y=0.029863 z=0.074776 | Meas: x=0.049526 y=0.030012 z=0.074757 | Error=0.000152
+[WARN] [1755623302.330650637] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623302.331094946] [kalman_filter_node]: Corrected: x=0.049534 y=0.029964 z=0.074754 | Meas: x=0.049556 y=0.030128 z=0.074728 | Error=0.000168
+[WARN] [1755623302.429382594] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623302.429828775] [kalman_filter_node]: Corrected: x=0.049653 y=0.030114 z=0.074739 | Meas: x=0.049741 y=0.030319 z=0.074711 | Error=0.000225
+[WARN] [1755623302.529517791] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623302.530362598] [kalman_filter_node]: Corrected: x=0.049646 y=0.030240 z=0.074675 | Meas: x=0.049697 y=0.030459 z=0.074615 | Error=0.000232
+[WARN] [1755623302.629539518] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623302.629784224] [kalman_filter_node]: Corrected: x=0.049630 y=0.030327 z=0.074641 | Meas: x=0.049657 y=0.030532 z=0.074579 | Error=0.000216
+[WARN] [1755623302.729444529] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623302.730193552] [kalman_filter_node]: Corrected: x=0.049615 y=0.030412 z=0.074593 | Meas: x=0.049625 y=0.030605 z=0.074520 | Error=0.000207
+[WARN] [1755623302.829501193] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623302.830092648] [kalman_filter_node]: Corrected: x=0.049590 y=0.030464 z=0.074586 | Meas: x=0.049584 y=0.030630 z=0.074531 | Error=0.000174
+[WARN] [1755623302.929299031] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623302.929948449] [kalman_filter_node]: Corrected: x=0.049580 y=0.030548 z=0.074560 | Meas: x=0.049571 y=0.030714 z=0.074507 | Error=0.000174
+[WARN] [1755623303.029563267] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623303.030310932] [kalman_filter_node]: Corrected: x=0.049598 y=0.030594 z=0.074633 | Meas: x=0.049604 y=0.030736 z=0.074641 | Error=0.000143
+[WARN] [1755623303.129383309] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623303.129869044] [kalman_filter_node]: Corrected: x=0.049563 y=0.030676 z=0.074543 | Meas: x=0.049542 y=0.030824 z=0.074493 | Error=0.000157
+[WARN] [1755623303.229383867] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623303.229934430] [kalman_filter_node]: Corrected: x=0.049572 y=0.030697 z=0.074514 | Meas: x=0.049568 y=0.030812 z=0.074463 | Error=0.000126
+[WARN] [1755623303.329906346] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623303.330323925] [kalman_filter_node]: Corrected: x=0.049598 y=0.030706 z=0.074554 | Meas: x=0.049613 y=0.030790 z=0.074544 | Error=0.000086
+[WARN] [1755623303.429432932] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623303.429920183] [kalman_filter_node]: Corrected: x=0.049600 y=0.030750 z=0.074626 | Meas: x=0.049611 y=0.030834 z=0.074663 | Error=0.000093
+[WARN] [1755623303.530145582] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623303.530523365] [kalman_filter_node]: Corrected: x=0.049601 y=0.030836 z=0.074615 | Meas: x=0.049607 y=0.030947 z=0.074635 | Error=0.000112
+[WARN] [1755623303.629316870] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623303.630061099] [kalman_filter_node]: Corrected: x=0.049605 y=0.030912 z=0.074628 | Meas: x=0.049610 y=0.031035 z=0.074649 | Error=0.000125
+[WARN] [1755623303.729025918] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623303.729608297] [kalman_filter_node]: Corrected: x=0.049599 y=0.030956 z=0.074661 | Meas: x=0.049598 y=0.031068 z=0.074695 | Error=0.000117
+[WARN] [1755623303.829011442] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623303.829714014] [kalman_filter_node]: Corrected: x=0.049642 y=0.031073 z=0.074750 | Meas: x=0.049668 y=0.031223 z=0.074830 | Error=0.000171
+[WARN] [1755623303.929195913] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623303.929760649] [kalman_filter_node]: Corrected: x=0.049670 y=0.031177 z=0.074779 | Meas: x=0.049699 y=0.031345 z=0.074850 | Error=0.000184
+[WARN] [1755623304.029018317] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623304.029797136] [kalman_filter_node]: Corrected: x=0.049691 y=0.031295 z=0.074813 | Meas: x=0.049721 y=0.031483 z=0.074881 | Error=0.000203
+[WARN] [1755623304.129150838] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623304.129573932] [kalman_filter_node]: Corrected: x=0.049702 y=0.031415 z=0.074792 | Meas: x=0.049727 y=0.031619 z=0.074826 | Error=0.000208
+[WARN] [1755623304.229086008] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623304.229780711] [kalman_filter_node]: Corrected: x=0.049685 y=0.031517 z=0.074768 | Meas: x=0.049692 y=0.031721 z=0.074776 | Error=0.000204
+[WARN] [1755623304.329985733] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623304.330507924] [kalman_filter_node]: Corrected: x=0.049630 y=0.031506 z=0.074713 | Meas: x=0.049600 y=0.031639 z=0.074684 | Error=0.000140
+[WARN] [1755623304.430170358] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623304.430573524] [kalman_filter_node]: Corrected: x=0.049679 y=0.031716 z=0.074750 | Meas: x=0.049696 y=0.031936 z=0.074755 | Error=0.000221
+[WARN] [1755623304.529947301] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623304.530500599] [kalman_filter_node]: Corrected: x=0.049648 y=0.031799 z=0.074730 | Meas: x=0.049632 y=0.032002 z=0.074719 | Error=0.000204
+[WARN] [1755623304.629887101] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623304.630306070] [kalman_filter_node]: Corrected: x=0.049624 y=0.031875 z=0.074677 | Meas: x=0.049600 y=0.032063 z=0.074637 | Error=0.000194
+[WARN] [1755623304.729970580] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623304.730635795] [kalman_filter_node]: Corrected: x=0.049573 y=0.031946 z=0.074650 | Meas: x=0.049528 y=0.032119 z=0.074606 | Error=0.000184
+[WARN] [1755623304.829808975] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623304.830726379] [kalman_filter_node]: Corrected: x=0.049527 y=0.031987 z=0.074681 | Meas: x=0.049468 y=0.032133 z=0.074669 | Error=0.000157
+[WARN] [1755623304.929811251] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623304.930550796] [kalman_filter_node]: Corrected: x=0.049514 y=0.031986 z=0.074667 | Meas: x=0.049466 y=0.032086 z=0.074651 | Error=0.000112
+[WARN] [1755623305.029769836] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623305.030553235] [kalman_filter_node]: Corrected: x=0.049591 y=0.032003 z=0.074717 | Meas: x=0.049609 y=0.032081 z=0.074737 | Error=0.000083
+[WARN] [1755623305.128888117] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623305.129467476] [kalman_filter_node]: Corrected: x=0.049598 y=0.032008 z=0.074736 | Meas: x=0.049612 y=0.032063 z=0.074762 | Error=0.000063
+[WARN] [1755623305.228817612] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623305.229625384] [kalman_filter_node]: Corrected: x=0.049433 y=0.032076 z=0.074679 | Meas: x=0.049343 y=0.032155 z=0.074662 | Error=0.000121
+[WARN] [1755623305.328922669] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623305.329319323] [kalman_filter_node]: Corrected: x=0.049445 y=0.032115 z=0.074679 | Meas: x=0.049394 y=0.032195 z=0.074668 | Error=0.000096
+[WARN] [1755623305.428835736] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623305.429320446] [kalman_filter_node]: Corrected: x=0.049454 y=0.032213 z=0.074664 | Meas: x=0.049426 y=0.032328 z=0.074646 | Error=0.000120
+[WARN] [1755623305.528936337] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623305.529756714] [kalman_filter_node]: Corrected: x=0.049470 y=0.032268 z=0.074662 | Meas: x=0.049459 y=0.032381 z=0.074648 | Error=0.000115
+[WARN] [1755623305.628694937] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623305.629751792] [kalman_filter_node]: Corrected: x=0.049483 y=0.032314 z=0.074713 | Meas: x=0.049483 y=0.032420 z=0.074736 | Error=0.000108
+[WARN] [1755623305.728856498] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623305.729312401] [kalman_filter_node]: Corrected: x=0.049576 y=0.032378 z=0.074717 | Meas: x=0.049632 y=0.032491 z=0.074735 | Error=0.000127
+[WARN] [1755623305.828762546] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623305.829316587] [kalman_filter_node]: Corrected: x=0.049566 y=0.032501 z=0.074724 | Meas: x=0.049596 y=0.032654 z=0.074740 | Error=0.000156
+[WARN] [1755623305.928722509] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623305.929206872] [kalman_filter_node]: Corrected: x=0.049642 y=0.032650 z=0.074716 | Meas: x=0.049708 y=0.032847 z=0.074721 | Error=0.000208
+[WARN] [1755623306.028789048] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623306.029160864] [kalman_filter_node]: Corrected: x=0.049673 y=0.032734 z=0.074770 | Meas: x=0.049733 y=0.032922 z=0.074807 | Error=0.000200
+[WARN] [1755623306.128807831] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623306.129136429] [kalman_filter_node]: Corrected: x=0.049733 y=0.032841 z=0.074782 | Meas: x=0.049809 y=0.033035 z=0.074814 | Error=0.000211
+[WARN] [1755623306.229657264] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623306.230139442] [kalman_filter_node]: Corrected: x=0.049796 y=0.032928 z=0.074786 | Meas: x=0.049886 y=0.033115 z=0.074811 | Error=0.000209
+[WARN] [1755623306.329674209] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623306.330133775] [kalman_filter_node]: Corrected: x=0.049839 y=0.033041 z=0.074762 | Meas: x=0.049927 y=0.033239 z=0.074763 | Error=0.000216
+[WARN] [1755623306.429662938] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623306.430514890] [kalman_filter_node]: Corrected: x=0.049888 y=0.033141 z=0.074729 | Meas: x=0.049978 y=0.033338 z=0.074709 | Error=0.000218
+[WARN] [1755623306.528859819] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623306.529312536] [kalman_filter_node]: Corrected: x=0.049921 y=0.033268 z=0.074662 | Meas: x=0.050003 y=0.033481 z=0.074607 | Error=0.000235
+[WARN] [1755623306.629637065] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623306.630172852] [kalman_filter_node]: Corrected: x=0.049919 y=0.033348 z=0.074641 | Meas: x=0.049976 y=0.033544 z=0.074590 | Error=0.000210
+[WARN] [1755623306.729539987] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623306.730146608] [kalman_filter_node]: Corrected: x=0.049898 y=0.033414 z=0.074622 | Meas: x=0.049924 y=0.033591 z=0.074575 | Error=0.000184
+[WARN] [1755623306.829543588] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623306.830278999] [kalman_filter_node]: Corrected: x=0.049864 y=0.033461 z=0.074601 | Meas: x=0.049862 y=0.033611 z=0.074557 | Error=0.000156
+[WARN] [1755623306.929633373] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623306.930352493] [kalman_filter_node]: Corrected: x=0.049783 y=0.033430 z=0.074621 | Meas: x=0.049734 y=0.033515 z=0.074602 | Error=0.000099
+[WARN] [1755623307.029485815] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623307.029947171] [kalman_filter_node]: Corrected: x=0.049774 y=0.033555 z=0.074524 | Meas: x=0.049738 y=0.033690 z=0.074452 | Error=0.000157
+[WARN] [1755623307.129526726] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623307.129982301] [kalman_filter_node]: Corrected: x=0.049742 y=0.033585 z=0.074484 | Meas: x=0.049699 y=0.033697 z=0.074410 | Error=0.000141
+[WARN] [1755623307.229350356] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623307.229793241] [kalman_filter_node]: Corrected: x=0.049703 y=0.033651 z=0.074465 | Meas: x=0.049651 y=0.033769 z=0.074403 | Error=0.000142
+[WARN] [1755623307.329254097] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623307.330059472] [kalman_filter_node]: Corrected: x=0.049666 y=0.033732 z=0.074426 | Meas: x=0.049608 y=0.033862 z=0.074358 | Error=0.000158
+[WARN] [1755623307.429471869] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623307.430003819] [kalman_filter_node]: Corrected: x=0.049658 y=0.033789 z=0.074447 | Meas: x=0.049614 y=0.033914 z=0.074414 | Error=0.000137
+[WARN] [1755623307.529474405] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623307.529884574] [kalman_filter_node]: Corrected: x=0.049748 y=0.033828 z=0.074548 | Meas: x=0.049772 y=0.033939 z=0.074588 | Error=0.000120
+[WARN] [1755623307.629219042] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623307.629659576] [kalman_filter_node]: Corrected: x=0.049650 y=0.033925 z=0.074524 | Meas: x=0.049601 y=0.034059 z=0.074536 | Error=0.000143
+[WARN] [1755623307.729533696] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623307.730141829] [kalman_filter_node]: Corrected: x=0.049674 y=0.034034 z=0.074554 | Meas: x=0.049657 y=0.034196 z=0.074581 | Error=0.000165
+[WARN] [1755623307.829294356] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623307.830138691] [kalman_filter_node]: Corrected: x=0.049701 y=0.034070 z=0.074591 | Meas: x=0.049704 y=0.034204 z=0.074631 | Error=0.000140
+[WARN] [1755623307.929300334] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623307.929704555] [kalman_filter_node]: Corrected: x=0.049702 y=0.034161 z=0.074631 | Meas: x=0.049704 y=0.034308 z=0.074684 | Error=0.000156
+[WARN] [1755623308.029312472] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623308.029695932] [kalman_filter_node]: Corrected: x=0.049742 y=0.034218 z=0.074692 | Meas: x=0.049766 y=0.034354 z=0.074765 | Error=0.000157
+[WARN] [1755623308.129167045] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623308.129772179] [kalman_filter_node]: Corrected: x=0.049732 y=0.034283 z=0.074594 | Meas: x=0.049740 y=0.034417 z=0.074584 | Error=0.000134
+[WARN] [1755623308.229439085] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623308.229964984] [kalman_filter_node]: Corrected: x=0.049770 y=0.034418 z=0.074696 | Meas: x=0.049804 y=0.034593 z=0.074753 | Error=0.000187
+[WARN] [1755623308.329214690] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623308.329900167] [kalman_filter_node]: Corrected: x=0.049796 y=0.034513 z=0.074697 | Meas: x=0.049829 y=0.034692 z=0.074735 | Error=0.000186
+[WARN] [1755623308.428986254] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623308.429493867] [kalman_filter_node]: Corrected: x=0.049767 y=0.034638 z=0.074669 | Meas: x=0.049771 y=0.034838 z=0.074678 | Error=0.000200
+[WARN] [1755623308.529333332] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623308.530107668] [kalman_filter_node]: Corrected: x=0.049751 y=0.034756 z=0.074604 | Meas: x=0.049744 y=0.034967 z=0.074570 | Error=0.000214
+[WARN] [1755623308.629135629] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623308.629700019] [kalman_filter_node]: Corrected: x=0.049746 y=0.034805 z=0.074614 | Meas: x=0.049739 y=0.034981 z=0.074596 | Error=0.000177
+[WARN] [1755623308.729211137] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623308.729857386] [kalman_filter_node]: Corrected: x=0.049708 y=0.034840 z=0.074592 | Meas: x=0.049681 y=0.034983 z=0.074567 | Error=0.000147
+[WARN] [1755623308.829048085] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623308.829635222] [kalman_filter_node]: Corrected: x=0.049686 y=0.034902 z=0.074555 | Meas: x=0.049656 y=0.035037 z=0.074514 | Error=0.000145
+[WARN] [1755623308.929036290] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623308.929783189] [kalman_filter_node]: Corrected: x=0.049664 y=0.034911 z=0.074540 | Meas: x=0.049631 y=0.035010 z=0.074503 | Error=0.000111
+[WARN] [1755623309.028889087] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623309.029441413] [kalman_filter_node]: Corrected: x=0.049649 y=0.034966 z=0.074495 | Meas: x=0.049620 y=0.035068 z=0.074443 | Error=0.000118
+[WARN] [1755623309.128972169] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623309.129708924] [kalman_filter_node]: Corrected: x=0.049698 y=0.035028 z=0.074468 | Meas: x=0.049710 y=0.035137 z=0.074415 | Error=0.000121
+[WARN] [1755623309.228987615] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623309.229464219] [kalman_filter_node]: Corrected: x=0.049678 y=0.035092 z=0.074463 | Meas: x=0.049673 y=0.035205 z=0.074425 | Error=0.000119
+[WARN] [1755623309.329133372] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623309.330033328] [kalman_filter_node]: Corrected: x=0.049691 y=0.035180 z=0.074422 | Meas: x=0.049697 y=0.035313 z=0.074370 | Error=0.000143
+[WARN] [1755623309.429093266] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623309.429625528] [kalman_filter_node]: Corrected: x=0.049698 y=0.035244 z=0.074425 | Meas: x=0.049706 y=0.035375 z=0.074391 | Error=0.000135
+[WARN] [1755623309.528808876] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623309.529616053] [kalman_filter_node]: Corrected: x=0.049770 y=0.035306 z=0.074450 | Meas: x=0.049820 y=0.035433 z=0.074442 | Error=0.000137
+[WARN] [1755623309.628949523] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623309.629424540] [kalman_filter_node]: Corrected: x=0.049832 y=0.035392 z=0.074469 | Meas: x=0.049902 y=0.035531 z=0.074476 | Error=0.000157
+[WARN] [1755623309.728892535] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623309.729552876] [kalman_filter_node]: Corrected: x=0.049865 y=0.035471 z=0.074503 | Meas: x=0.049931 y=0.035616 z=0.074527 | Error=0.000161
+[WARN] [1755623309.828807821] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623309.829419642] [kalman_filter_node]: Corrected: x=0.049934 y=0.035556 z=0.074506 | Meas: x=0.050021 y=0.035707 z=0.074525 | Error=0.000176
+[WARN] [1755623309.928815692] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623309.929531490] [kalman_filter_node]: Corrected: x=0.049832 y=0.035657 z=0.074495 | Meas: x=0.049827 y=0.035822 z=0.074501 | Error=0.000166
+[WARN] [1755623310.028926571] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623310.029653871] [kalman_filter_node]: Corrected: x=0.049973 y=0.035791 z=0.074524 | Meas: x=0.050057 y=0.035991 z=0.074546 | Error=0.000218
+[WARN] [1755623310.128782544] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623310.129292400] [kalman_filter_node]: Corrected: x=0.049999 y=0.035834 z=0.074549 | Meas: x=0.050068 y=0.035996 z=0.074578 | Error=0.000178
+[WARN] [1755623310.228836907] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623310.229862743] [kalman_filter_node]: Corrected: x=0.050028 y=0.035896 z=0.074588 | Meas: x=0.050095 y=0.036044 z=0.074633 | Error=0.000169
+[WARN] [1755623310.328750865] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623310.329372696] [kalman_filter_node]: Corrected: x=0.050044 y=0.036046 z=0.074616 | Meas: x=0.050098 y=0.036241 z=0.074663 | Error=0.000208
+[WARN] [1755623310.428894186] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623310.429549235] [kalman_filter_node]: Corrected: x=0.050024 y=0.036135 z=0.074666 | Meas: x=0.050046 y=0.036325 z=0.074730 | Error=0.000201
+[WARN] [1755623310.528782185] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623310.529220936] [kalman_filter_node]: Corrected: x=0.049873 y=0.036098 z=0.074663 | Meas: x=0.049792 y=0.036206 z=0.074704 | Error=0.000141
+[WARN] [1755623310.628757461] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623310.629531305] [kalman_filter_node]: Corrected: x=0.049859 y=0.036129 z=0.074696 | Meas: x=0.049799 y=0.036223 z=0.074747 | Error=0.000122
+[WARN] [1755623310.729018673] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623310.729449812] [kalman_filter_node]: Corrected: x=0.049841 y=0.036201 z=0.074699 | Meas: x=0.049788 y=0.036310 z=0.074736 | Error=0.000126
+[WARN] [1755623310.828772572] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623310.829495466] [kalman_filter_node]: Corrected: x=0.049877 y=0.036345 z=0.074672 | Meas: x=0.049863 y=0.036508 z=0.074681 | Error=0.000164
+[WARN] [1755623310.928793722] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623310.929320052] [kalman_filter_node]: Corrected: x=0.049882 y=0.036399 z=0.074665 | Meas: x=0.049874 y=0.036544 z=0.074666 | Error=0.000146
+[WARN] [1755623311.028806976] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623311.029193243] [kalman_filter_node]: Corrected: x=0.049806 y=0.036462 z=0.074645 | Meas: x=0.049754 y=0.036601 z=0.074634 | Error=0.000148
+[WARN] [1755623311.128512951] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623311.129035290] [kalman_filter_node]: Corrected: x=0.049747 y=0.036520 z=0.074664 | Meas: x=0.049675 y=0.036652 z=0.074668 | Error=0.000150
+[WARN] [1755623311.231033548] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623311.231475134] [kalman_filter_node]: Corrected: x=0.049719 y=0.036603 z=0.074667 | Meas: x=0.049652 y=0.036746 z=0.074671 | Error=0.000158
+[WARN] [1755623311.330754764] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623311.331773129] [kalman_filter_node]: Corrected: x=0.049695 y=0.036675 z=0.074679 | Meas: x=0.049633 y=0.036818 z=0.074689 | Error=0.000156
+[WARN] [1755623311.430857668] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623311.431212375] [kalman_filter_node]: Corrected: x=0.049691 y=0.036751 z=0.074660 | Meas: x=0.049646 y=0.036897 z=0.074655 | Error=0.000153
+[WARN] [1755623311.530656825] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623311.530966387] [kalman_filter_node]: Corrected: x=0.049670 y=0.036820 z=0.074688 | Meas: x=0.049627 y=0.036962 z=0.074703 | Error=0.000150
+[WARN] [1755623311.630523626] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623311.631228839] [kalman_filter_node]: Corrected: x=0.049712 y=0.036896 z=0.074710 | Meas: x=0.049707 y=0.037041 z=0.074733 | Error=0.000147
+[WARN] [1755623311.730551745] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623311.730930859] [kalman_filter_node]: Corrected: x=0.049839 y=0.037012 z=0.074711 | Meas: x=0.049913 y=0.037182 z=0.074728 | Error=0.000187
+[WARN] [1755623311.830419606] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623311.831049916] [kalman_filter_node]: Corrected: x=0.049823 y=0.037055 z=0.074810 | Meas: x=0.049863 y=0.037196 z=0.074881 | Error=0.000163
+[WARN] [1755623311.931394686] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623311.932027188] [kalman_filter_node]: Corrected: x=0.049861 y=0.037133 z=0.074826 | Meas: x=0.049909 y=0.037279 z=0.074885 | Error=0.000165
+[WARN] [1755623312.031173066] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623312.032023954] [kalman_filter_node]: Corrected: x=0.049909 y=0.037233 z=0.074816 | Meas: x=0.049971 y=0.037394 z=0.074850 | Error=0.000176
+[WARN] [1755623312.130295545] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623312.130793263] [kalman_filter_node]: Corrected: x=0.049960 y=0.037335 z=0.074792 | Meas: x=0.050034 y=0.037509 z=0.074801 | Error=0.000189
+[WARN] [1755623312.231337246] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623312.232369579] [kalman_filter_node]: Corrected: x=0.049967 y=0.037419 z=0.074759 | Meas: x=0.050022 y=0.037589 z=0.074745 | Error=0.000180
+[WARN] [1755623312.331480696] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623312.332141865] [kalman_filter_node]: Corrected: x=0.049900 y=0.037425 z=0.074716 | Meas: x=0.049898 y=0.037545 z=0.074679 | Error=0.000126
+[WARN] [1755623312.431255709] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623312.431837627] [kalman_filter_node]: Corrected: x=0.049898 y=0.037486 z=0.074693 | Meas: x=0.049900 y=0.037607 z=0.074653 | Error=0.000127
+[WARN] [1755623312.531188714] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623312.531798491] [kalman_filter_node]: Corrected: x=0.049936 y=0.037642 z=0.074674 | Meas: x=0.049961 y=0.037822 z=0.074636 | Error=0.000185
+[WARN] [1755623312.631406749] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623312.632327397] [kalman_filter_node]: Corrected: x=0.049923 y=0.037689 z=0.074623 | Meas: x=0.049929 y=0.037842 z=0.074565 | Error=0.000163
+[WARN] [1755623312.731465490] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623312.732214359] [kalman_filter_node]: Corrected: x=0.049887 y=0.037752 z=0.074593 | Meas: x=0.049871 y=0.037896 z=0.074535 | Error=0.000156
+[WARN] [1755623312.830285259] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623312.831044831] [kalman_filter_node]: Corrected: x=0.049858 y=0.037834 z=0.074565 | Meas: x=0.049832 y=0.037984 z=0.074508 | Error=0.000162
+[WARN] [1755623312.930249003] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623312.931195615] [kalman_filter_node]: Corrected: x=0.049909 y=0.037823 z=0.074670 | Meas: x=0.049923 y=0.037919 z=0.074696 | Error=0.000101
+[WARN] [1755623313.030104052] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623313.030821734] [kalman_filter_node]: Corrected: x=0.049874 y=0.037991 z=0.074558 | Meas: x=0.049860 y=0.038160 z=0.074506 | Error=0.000177
+[WARN] [1755623313.130212260] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623313.130765644] [kalman_filter_node]: Corrected: x=0.049843 y=0.038074 z=0.074591 | Meas: x=0.049814 y=0.038242 z=0.074575 | Error=0.000171
+[WARN] [1755623313.230315063] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623313.230603996] [kalman_filter_node]: Corrected: x=0.049899 y=0.038110 z=0.074619 | Meas: x=0.049913 y=0.038248 z=0.074625 | Error=0.000139
+[WARN] [1755623313.330139403] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623313.330529293] [kalman_filter_node]: Corrected: x=0.049927 y=0.038153 z=0.074681 | Meas: x=0.049954 y=0.038273 z=0.074724 | Error=0.000131
+[WARN] [1755623313.430630855] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623313.431623773] [kalman_filter_node]: Corrected: x=0.049909 y=0.038193 z=0.074733 | Meas: x=0.049914 y=0.038300 z=0.074794 | Error=0.000124
+[WARN] [1755623313.530460304] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623313.530956575] [kalman_filter_node]: Corrected: x=0.049929 y=0.038324 z=0.074698 | Meas: x=0.049944 y=0.038478 z=0.074718 | Error=0.000157
+[WARN] [1755623313.630217578] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623313.630542752] [kalman_filter_node]: Corrected: x=0.049998 y=0.038463 z=0.074708 | Meas: x=0.050051 y=0.038656 z=0.074729 | Error=0.000201
+[WARN] [1755623313.730441342] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623313.730935396] [kalman_filter_node]: Corrected: x=0.050047 y=0.038532 z=0.074738 | Meas: x=0.050110 y=0.038706 z=0.074770 | Error=0.000188
+[WARN] [1755623313.830265716] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623313.830994002] [kalman_filter_node]: Corrected: x=0.050011 y=0.038588 z=0.074788 | Meas: x=0.050032 y=0.038741 z=0.074840 | Error=0.000164
+[WARN] [1755623313.930234563] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623313.930785614] [kalman_filter_node]: Corrected: x=0.050043 y=0.038659 z=0.074805 | Meas: x=0.050076 y=0.038809 z=0.074851 | Error=0.000160
+[WARN] [1755623314.030266002] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623314.030868419] [kalman_filter_node]: Corrected: x=0.050007 y=0.038735 z=0.074772 | Meas: x=0.050007 y=0.038884 z=0.074784 | Error=0.000150
+[WARN] [1755623314.130325376] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623314.130733381] [kalman_filter_node]: Corrected: x=0.049938 y=0.038728 z=0.074692 | Meas: x=0.049898 y=0.038828 z=0.074650 | Error=0.000115
+[WARN] [1755623314.230279722] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623314.230725092] [kalman_filter_node]: Corrected: x=0.049963 y=0.038862 z=0.074740 | Meas: x=0.049956 y=0.039013 z=0.074742 | Error=0.000151
+[WARN] [1755623314.330178307] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623314.330742062] [kalman_filter_node]: Corrected: x=0.049928 y=0.038924 z=0.074707 | Meas: x=0.049898 y=0.039066 z=0.074687 | Error=0.000147
+[WARN] [1755623314.430143078] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623314.430491617] [kalman_filter_node]: Corrected: x=0.049879 y=0.039004 z=0.074645 | Meas: x=0.049829 y=0.039151 z=0.074594 | Error=0.000164
+[WARN] [1755623314.529421945] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623314.530102415] [kalman_filter_node]: Corrected: x=0.049824 y=0.039102 z=0.074629 | Meas: x=0.049757 y=0.039264 z=0.074584 | Error=0.000181
+[WARN] [1755623314.629294405] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623314.630237639] [kalman_filter_node]: Corrected: x=0.049770 y=0.039215 z=0.074597 | Meas: x=0.049689 y=0.039397 z=0.074546 | Error=0.000206
+[WARN] [1755623314.729142703] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623314.730094201] [kalman_filter_node]: Corrected: x=0.049726 y=0.039300 z=0.074570 | Meas: x=0.049643 y=0.039479 z=0.074518 | Error=0.000204
+[WARN] [1755623314.829356037] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623314.829872627] [kalman_filter_node]: Corrected: x=0.049726 y=0.039344 z=0.074568 | Meas: x=0.049668 y=0.039495 z=0.074530 | Error=0.000166
+[WARN] [1755623314.929331020] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623314.929752810] [kalman_filter_node]: Corrected: x=0.049724 y=0.039399 z=0.074569 | Meas: x=0.049685 y=0.039536 z=0.074544 | Error=0.000144
+[WARN] [1755623315.030314141] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623315.030829031] [kalman_filter_node]: Corrected: x=0.049718 y=0.039460 z=0.074601 | Meas: x=0.049688 y=0.039591 z=0.074604 | Error=0.000135
+[WARN] [1755623315.130202216] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623315.130663980] [kalman_filter_node]: Corrected: x=0.049740 y=0.039577 z=0.074605 | Meas: x=0.049731 y=0.039739 z=0.074610 | Error=0.000163
+[WARN] [1755623315.229993595] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623315.230468609] [kalman_filter_node]: Corrected: x=0.049899 y=0.039642 z=0.074612 | Meas: x=0.049989 y=0.039794 z=0.074619 | Error=0.000177
+[WARN] [1755623315.330095643] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623315.330728738] [kalman_filter_node]: Corrected: x=0.049830 y=0.039747 z=0.074628 | Meas: x=0.049850 y=0.039913 z=0.074643 | Error=0.000168
+[WARN] [1755623315.430078827] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623315.430485952] [kalman_filter_node]: Corrected: x=0.049926 y=0.039817 z=0.074638 | Meas: x=0.049996 y=0.039977 z=0.074653 | Error=0.000175
+[WARN] [1755623315.529932988] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623315.530344431] [kalman_filter_node]: Corrected: x=0.049980 y=0.039900 z=0.074643 | Meas: x=0.050061 y=0.040059 z=0.074658 | Error=0.000180
+[WARN] [1755623315.630084019] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623315.630620462] [kalman_filter_node]: Corrected: x=0.050032 y=0.039969 z=0.074664 | Meas: x=0.050120 y=0.040121 z=0.074687 | Error=0.000177
+[WARN] [1755623315.730025712] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623315.730989683] [kalman_filter_node]: Corrected: x=0.050101 y=0.040045 z=0.074663 | Meas: x=0.050203 y=0.040195 z=0.074678 | Error=0.000182
+[WARN] [1755623315.829804813] [kalman_filter_node]: Uncertainty exceeded threshold, pausing predictions until next measurement.
+[INFO] [1755623315.830303821] [kalman_filter_node]: Corrected: x=0.050003 y=0.040026 z=0.074628 | Meas: x=0.050013 y=0.040117 z=0.074617 | Error=0.000092
+[INFO] [1755623315.930600920] [kalman_filter_node]: Corrected: x=0.050011 y=0.040080 z=0.074622 | Meas: x=0.050025 y=0.040168 z=0.074612 | Error=0.000089
+[INFO] [1755623316.030729703] [kalman_filter_node]: Corrected: x=0.050098 y=0.040169 z=0.074628 | Meas: x=0.050324 y=0.040400 z=0.074644 | Error=0.000324
+[INFO] [1755623316.130415112] [kalman_filter_node]: Corrected: x=0.050148 y=0.040238 z=0.074626 | Meas: x=0.050331 y=0.040488 z=0.074620 | Error=0.000310
+[INFO] [1755623316.230251972] [kalman_filter_node]: Corrected: x=0.050177 y=0.040298 z=0.074614 | Meas: x=0.050310 y=0.040576 z=0.074559 | Error=0.000313
+[INFO] [1755623316.330375569] [kalman_filter_node]: Corrected: x=0.050194 y=0.040352 z=0.074605 | Meas: x=0.050289 y=0.040653 z=0.074550 | Error=0.000320
+[INFO] [1755623316.430423868] [kalman_filter_node]: Corrected: x=0.050200 y=0.040401 z=0.074590 | Meas: x=0.050238 y=0.040724 z=0.074496 | Error=0.000339
+[INFO] [1755623316.530277853] [kalman_filter_node]: Corrected: x=0.050188 y=0.040443 z=0.074581 | Meas: x=0.050099 y=0.040770 z=0.074509 | Error=0.000346
+[INFO] [1755623316.630114923] [kalman_filter_node]: Corrected: x=0.050174 y=0.040484 z=0.074573 | Meas: x=0.050056 y=0.040836 z=0.074501 | Error=0.000378
+[INFO] [1755623316.730415767] [kalman_filter_node]: Corrected: x=0.050161 y=0.040525 z=0.074564 | Meas: x=0.050027 y=0.040914 z=0.074486 | Error=0.000419
+[INFO] [1755623316.830370131] [kalman_filter_node]: Corrected: x=0.050140 y=0.040564 z=0.074555 | Meas: x=0.049919 y=0.040982 z=0.074454 | Error=0.000484
+[INFO] [1755623316.930396355] [kalman_filter_node]: Corrected: x=0.050122 y=0.040602 z=0.074552 | Meas: x=0.049914 y=0.041036 z=0.074518 | Error=0.000483
+[INFO] [1755623351.950607729] [rclcpp]: signal_handler(signum=2)

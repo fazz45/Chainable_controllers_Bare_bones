@@ -1,0 +1,35 @@
+<library path="chainable_controllers_demo">
+  <!-- RigidPoseBroadcaster -->
+  <class
+      name="chainable_controllers_demo/RigidPoseBroadcaster"
+      type="chainable_controllers_demo::RigidPoseBroadcaster"
+      base_class_type="controller_interface::ChainableControllerInterface">
+    <description>
+      Publishes a simple dummy pose (pose.x, pose.y, pose.theta) as reference
+      interfaces for other controllers in the chain.
+    </description>
+  </class>
+
+  <!-- BroydenController -->
+  <class
+      name="chainable_controllers_demo/BroydenController"
+      type="chainable_controllers_demo::BroydenController"
+      base_class_type="controller_interface::ChainableControllerInterface">
+    <description>
+      Exports velocity references (vel.v, vel.w) and subscribes to /kalman_estimate
+      for closed-loop Broyden update logic.
+    </description>
+  </class>
+
+  <!-- KalmanController -->
+  <class
+      name="chainable_controllers_demo/KalmanController"
+      type="chainable_controllers_demo::KalmanController"
+      base_class_type="controller_interface::ChainableControllerInterface">
+    <description>
+      Fuses chained pose and velocity references, publishing a fused geometry_msgs::msg::Pose
+      on /kalman_estimate. Does not command hardware.
+    </description>
+  </class>
+</library>
+

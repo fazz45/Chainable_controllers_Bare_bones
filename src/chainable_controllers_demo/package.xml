@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>chainable_controllers_demo</name>
+  <version>0.1.0</version>
+  <description>
+    Demo package implementing three ROS 2 chainable controllers:
+    RigidPoseBroadcaster, BroydenController, and KalmanController.
+  </description>
+
+  <maintainer email="you@todo.todo">Fazil</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- THIS makes it an ament_cmake package -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>rclcpp_lifecycle</depend>
+  <depend>controller_interface</depend>
+  <depend>hardware_interface</depend>
+  <depend>pluginlib</depend>
+  <depend>geometry_msgs</depend>
+
+  <export>
+<pluginlib plugin="${prefix}/chainable_controllers_demo.xml"/>
+  <controller_interface plugin_description_file="chainable_controllers_demo.xml"/>
+</export>
+</package>
+
