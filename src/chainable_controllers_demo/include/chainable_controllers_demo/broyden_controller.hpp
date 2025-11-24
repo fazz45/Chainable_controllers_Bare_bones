@@ -52,7 +52,7 @@ protected:
   // Internal time for generating the sine wave
   double t_{0.0};
 
-  // --- THESE ARE THE VARIABLES YOU WERE MISSING ---
+  
   double est_x_{0.0};
   double est_y_{0.0};
   double est_theta_{0.0};
