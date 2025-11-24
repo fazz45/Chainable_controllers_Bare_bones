@@ -18,7 +18,7 @@ public:
 
   controller_interface::CallbackReturn on_init() override;
 
-  // Standard lifecycle methods
+
   controller_interface::CallbackReturn on_configure(
     const rclcpp_lifecycle::State & previous_state) override;
 
@@ -28,10 +28,10 @@ public:
   controller_interface::CallbackReturn on_deactivate(
     const rclcpp_lifecycle::State & previous_state) override;
 
-  // We are the "Sink", so we export reference interfaces for others to write to
+  // export reference interfaces for others to write to
   std::vector<hardware_interface::CommandInterface> on_export_reference_interfaces() override;
 
-  // We do NOT claim command interfaces from others
+  // do not claim command interfaces from others
   controller_interface::InterfaceConfiguration command_interface_configuration() const override;
 
   controller_interface::InterfaceConfiguration state_interface_configuration() const override;
