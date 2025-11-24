@@ -8,24 +8,23 @@ BroydenController::BroydenController() = default;
 
 controller_interface::CallbackReturn BroydenController::on_init()
 {
-  // Declare a parameter to know WHICH interfaces to write to
+
   auto_declare<std::vector<std::string>>("interfaces", {});
   return controller_interface::CallbackReturn::SUCCESS;
 }
 
-// 1. Request the interfaces we want to WRITE to (Kalman's interfaces)
+//  Request the interfaces we want to write to
 controller_interface::InterfaceConfiguration 
 BroydenController::command_interface_configuration() const
 {
   controller_interface::InterfaceConfiguration config;
   config.type = controller_interface::interface_configuration_type::INDIVIDUAL;
-  // This will be loaded from yaml: ["kalman_controller/vel.v", "kalman_controller/vel.w"]
+  // This will be loaded from yaml
   config.names = get_node()->get_parameter("interfaces").as_string_array();
   return config;
 }
 
-// 2. We are now a Preceding controller, so we don't need to export anything real.
-// (Professor's note: We still export dummy ones just to be safe/compliant).
+
 std::vector<hardware_interface::CommandInterface>
 BroydenController::on_export_reference_interfaces()
 {
@@ -44,7 +43,7 @@ BroydenController::state_interface_configuration() const
 
 controller_interface::CallbackReturn BroydenController::on_configure(const rclcpp_lifecycle::State &)
 {
-  // Subscriber to /kalman_estimate (Soft dependency)
+  // Subscriber to /kalman_estimate 
   est_sub_ = get_node()->create_subscription<geometry_msgs::msg::Pose>(
     "/kalman_estimate", rclcpp::SystemDefaultsQoS(),
     std::bind(&BroydenController::estCallback, this, std::placeholders::_1));
@@ -73,8 +72,8 @@ controller_interface::return_type BroydenController::update_and_write_commands(
   double v_cmd = 0.2;
   double w_cmd = 0.3 * std::sin(0.5 * t_);
 
-  // 3. PUSH the data to the connected controller (Kalman)
-  // command_interfaces_ is populated by the Controller Manager based on our config
+  //  PUSH the data to the Kalman
+
   if (command_interfaces_.size() >= 2) {
       command_interfaces_[0].set_value(v_cmd);
       command_interfaces_[1].set_value(w_cmd);
