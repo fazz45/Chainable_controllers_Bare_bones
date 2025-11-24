@@ -13,7 +13,7 @@ controller_interface::CallbackReturn BroydenController::on_init()
   return controller_interface::CallbackReturn::SUCCESS;
 }
 
-//  Request the interfaces we want to write to
+//  interfaces we want to write to
 controller_interface::InterfaceConfiguration 
 BroydenController::command_interface_configuration() const
 {
@@ -85,3 +85,7 @@ controller_interface::return_type BroydenController::update_and_write_commands(
 PLUGINLIB_EXPORT_CLASS(
   chainable_controllers_demo::BroydenController,
   controller_interface::ChainableControllerInterface)
+
+
+
+
