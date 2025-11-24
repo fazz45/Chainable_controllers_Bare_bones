@@ -12,14 +12,13 @@ controller_interface::CallbackReturn KalmanController::on_init()
   return controller_interface::CallbackReturn::SUCCESS;
 }
 
-// 1. Kalman acts as the "Hardware" for other controllers, so it exports interfaces.
 std::vector<hardware_interface::CommandInterface>
 KalmanController::on_export_reference_interfaces()
 {
   reference_interfaces_.resize(5); // Allocate storage for 5 inputs
   std::vector<hardware_interface::CommandInterface> refs;
   
-  // These names (pose.x, vel.v) become "kalman_controller/pose.x", etc.
+  // These names (pose.x, vel.v) become "kalman_controller/pose.x"
   refs.emplace_back(get_node()->get_name(), "pose.x", &reference_interfaces_[0]);
   refs.emplace_back(get_node()->get_name(), "pose.y", &reference_interfaces_[1]);
   refs.emplace_back(get_node()->get_name(), "pose.theta", &reference_interfaces_[2]);
@@ -29,7 +28,7 @@ KalmanController::on_export_reference_interfaces()
   return refs;
 }
 
-// 2. Kalman does NOT claim interfaces from others anymore.
+//  Kalman does NOT claim interfaces from others
 controller_interface::InterfaceConfiguration
 KalmanController::command_interface_configuration() const
 {
@@ -71,7 +70,7 @@ bool KalmanController::on_set_chained_mode(bool) { return true; }
 controller_interface::return_type KalmanController::update_and_write_commands(
   const rclcpp::Time &, const rclcpp::Duration &)
 {
-  // 3. Read data from OUR OWN reference_interfaces_ (which Broyden/Rigid wrote to)
+  // Read data from reference_interfaces_ (which Broyden/Rigid wrote to)
   const double pose_x   = reference_interfaces_[0];
   const double pose_y   = reference_interfaces_[1];
   const double pose_th  = reference_interfaces_[2];
