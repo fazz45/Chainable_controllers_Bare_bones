@@ -3,7 +3,6 @@ controller_manager:
     update_rate: 100
     use_sim_time: false
 
-    # Define the controllers and their types here
     kalman_controller:
       type: chainable_controllers_demo/KalmanController
 
