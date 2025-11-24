@@ -26,10 +26,10 @@ public:
   controller_interface::CallbackReturn on_deactivate(
     const rclcpp_lifecycle::State & previous_state) override;
 
-  // We claim interfaces from Kalman to write data PUSH style
+  // claim interfaces from Kalman 
   controller_interface::InterfaceConfiguration command_interface_configuration() const override;
 
-  // We export a dummy interface to satisfy the ChainableController requirement
+  // export a dummy interface to satisfy the ChainableController requirement
   std::vector<hardware_interface::CommandInterface> on_export_reference_interfaces() override;
 
   controller_interface::InterfaceConfiguration state_interface_configuration() const override;
@@ -43,7 +43,6 @@ public:
   controller_interface::return_type update_reference_from_subscribers() override;
 
 protected:
-  // Internal time for generating the moving pose
   double t_{0.0};
 };
 
