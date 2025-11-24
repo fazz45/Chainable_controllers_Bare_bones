@@ -1,134 +1,88 @@
 #include "chainable_controllers_demo/broyden_controller.hpp"
-
-#include <hardware_interface/types/hardware_interface_type_values.hpp>
 #include <pluginlib/class_list_macros.hpp>
-
 #include <cmath>
-#include <functional>
-
-using controller_interface::CallbackReturn;
-using controller_interface::InterfaceConfiguration;
-using controller_interface::interface_configuration_type;
-using controller_interface::return_type;
 
 namespace chainable_controllers_demo
 {
-
 BroydenController::BroydenController() = default;
 
-CallbackReturn BroydenController::on_init()
+controller_interface::CallbackReturn BroydenController::on_init()
 {
-  RCLCPP_INFO(get_node()->get_logger(), "BroydenController on_init");
-  return CallbackReturn::SUCCESS;
+  // Declare a parameter to know WHICH interfaces to write to
+  auto_declare<std::vector<std::string>>("interfaces", {});
+  return controller_interface::CallbackReturn::SUCCESS;
 }
 
-// no  state interfaces from other controllers or hardware.
-InterfaceConfiguration BroydenController::state_interface_configuration() const
+// 1. Request the interfaces we want to WRITE to (Kalman's interfaces)
+controller_interface::InterfaceConfiguration 
+BroydenController::command_interface_configuration() const
 {
-  InterfaceConfiguration cfg;
-  cfg.type = interface_configuration_type::NONE;
-  return cfg;
+  controller_interface::InterfaceConfiguration config;
+  config.type = controller_interface::interface_configuration_type::INDIVIDUAL;
+  // This will be loaded from yaml: ["kalman_controller/vel.v", "kalman_controller/vel.w"]
+  config.names = get_node()->get_parameter("interfaces").as_string_array();
+  return config;
 }
 
-// no hardware command interfaces as well.
-
-InterfaceConfiguration BroydenController::command_interface_configuration() const
-{
-  InterfaceConfiguration cfg;
-  cfg.type = interface_configuration_type::NONE;
-  return cfg;
-}
-
-// Exporting our reference interfaces.
-// Things will appear as broyden_controller/vel.v and broyden_controller/vel.w.
+// 2. We are now a Preceding controller, so we don't need to export anything real.
+// (Professor's note: We still export dummy ones just to be safe/compliant).
 std::vector<hardware_interface::CommandInterface>
 BroydenController::on_export_reference_interfaces()
 {
+  reference_interfaces_.resize(1);
   std::vector<hardware_interface::CommandInterface> refs;
-  refs.reserve(2);
-
-  refs.emplace_back(get_node()->get_name(), "vel.v", &v_ref_);
-  refs.emplace_back(get_node()->get_name(), "vel.w", &w_ref_);
-
+  refs.emplace_back(get_node()->get_name(), "dummy", &reference_interfaces_[0]);
   return refs;
 }
 
-
-controller_interface::return_type BroydenController::update_reference_from_subscribers()
+controller_interface::InterfaceConfiguration 
+BroydenController::state_interface_configuration() const
 {
-  // not subscribing to anything for this adn won't ever need to as that part will be fro kalman only
-  return return_type::OK;
+  return controller_interface::InterfaceConfiguration{
+    controller_interface::interface_configuration_type::NONE};
 }
 
-bool BroydenController::on_set_chained_mode(bool /*chained_mode*/)
+controller_interface::CallbackReturn BroydenController::on_configure(const rclcpp_lifecycle::State &)
 {
-  // For now, alwasy chained.
-
-  return true;
-}
-
-CallbackReturn BroydenController::on_configure(const rclcpp_lifecycle::State &)
-{
-  // Subscribe to Kalman estimated pose on /kalman_estimate
+  // Subscriber to /kalman_estimate (Soft dependency)
   est_sub_ = get_node()->create_subscription<geometry_msgs::msg::Pose>(
-    "/kalman_estimate",
-    rclcpp::SystemDefaultsQoS(),
+    "/kalman_estimate", rclcpp::SystemDefaultsQoS(),
     std::bind(&BroydenController::estCallback, this, std::placeholders::_1));
-
-  RCLCPP_INFO(get_node()->get_logger(), "BroydenController configured");
-  return CallbackReturn::SUCCESS;
+  return controller_interface::CallbackReturn::SUCCESS;
 }
 
-CallbackReturn BroydenController::on_activate(const rclcpp_lifecycle::State &)
+controller_interface::CallbackReturn BroydenController::on_activate(const rclcpp_lifecycle::State &)
 {
-  // Initialize references and internal time
-  v_ref_ = 0.2;
-  w_ref_ = 0.0;
   t_ = 0.0;
-
-  est_x_ = 0.0;
-  est_y_ = 0.0;
-  est_theta_ = 0.0;
-
-  RCLCPP_INFO(get_node()->get_logger(), "BroydenController activated");
-  return CallbackReturn::SUCCESS;
+  return controller_interface::CallbackReturn::SUCCESS;
 }
 
-CallbackReturn BroydenController::on_deactivate(const rclcpp_lifecycle::State &)
+controller_interface::CallbackReturn BroydenController::on_deactivate(const rclcpp_lifecycle::State &)
 {
-  est_sub_.reset();
-  RCLCPP_INFO(get_node()->get_logger(), "BroydenController deactivated");
-  return CallbackReturn::SUCCESS;
+  return controller_interface::CallbackReturn::SUCCESS;
 }
 
-// Subscriber callback: store latest estimated pose from Kalman
-void BroydenController::estCallback(const geometry_msgs::msg::Pose::SharedPtr msg)
-{
-  est_x_ = msg->position.x;
-  est_y_ = msg->position.y;
+bool BroydenController::on_set_chained_mode(bool) { return true; }
+controller_interface::return_type BroydenController::update_reference_from_subscribers() { return controller_interface::return_type::OK; }
+void BroydenController::estCallback(const geometry_msgs::msg::Pose::SharedPtr) {} // kept simple for demo
 
-  // Extract yaw (theta) from quaternion 
-  const double z = msg->orientation.z;
-  const double w = msg->orientation.w;
-  est_theta_ = 2.0 * std::atan2(z, w);
-}
-
-return_type BroydenController::update_and_write_commands(
-  const rclcpp::Time & /*time*/, const rclcpp::Duration & period)
+controller_interface::return_type BroydenController::update_and_write_commands(
+  const rclcpp::Time &, const rclcpp::Duration & period)
 {
   t_ += period.seconds();
+  double v_cmd = 0.2;
+  double w_cmd = 0.3 * std::sin(0.5 * t_);
 
-  // Dummy reference generator
-  v_ref_ = 0.2;
-  w_ref_ = 0.3 * std::sin(0.5 * t_);
-
-
-  return return_type::OK;
+  // 3. PUSH the data to the connected controller (Kalman)
+  // command_interfaces_ is populated by the Controller Manager based on our config
+  if (command_interfaces_.size() >= 2) {
+      command_interfaces_[0].set_value(v_cmd);
+      command_interfaces_[1].set_value(w_cmd);
+  }
+  return controller_interface::return_type::OK;
 }
-
-}  // namespace
+} // namespace
 
 PLUGINLIB_EXPORT_CLASS(
   chainable_controllers_demo::BroydenController,
   controller_interface::ChainableControllerInterface)
-
