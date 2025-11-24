@@ -3,20 +3,28 @@ controller_manager:
     update_rate: 100
     use_sim_time: false
 
-   
-    rigid_pose_broadcaster:
-      type: chainable_controllers_demo/RigidPoseBroadcaster
+    # Define the controllers and their types here
+    kalman_controller:
+      type: chainable_controllers_demo/KalmanController
 
     broyden_controller:
       type: chainable_controllers_demo/BroydenController
 
-    kalman_controller:
-      type: chainable_controllers_demo/KalmanController
-      parameters:
-        interfaces:
-          - rigid_pose_broadcaster/pose.x
-          - rigid_pose_broadcaster/pose.y
-          - rigid_pose_broadcaster/pose.theta
-          - broyden_controller/vel.v
-          - broyden_controller/vel.w
+    rigid_pose_broadcaster:
+      type: chainable_controllers_demo/RigidPoseBroadcaster
 
+# PARAMETERS
+
+
+broyden_controller:
+  ros__parameters:
+    interfaces:
+      - kalman_controller/vel.v
+      - kalman_controller/vel.w
+
+rigid_pose_broadcaster:
+  ros__parameters:
+    interfaces:
+      - kalman_controller/pose.x
+      - kalman_controller/pose.y
+      - kalman_controller/pose.theta
