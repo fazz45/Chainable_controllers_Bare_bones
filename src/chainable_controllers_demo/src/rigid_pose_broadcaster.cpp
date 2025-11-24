@@ -1,108 +1,88 @@
-#include "chainable_controllers_demo/rigid_pose_broadcaster.hpp"
-
-#include <hardware_interface/types/hardware_interface_type_values.hpp>
+#include "chainable_controllers_demo/broyden_controller.hpp"
 #include <pluginlib/class_list_macros.hpp>
-
-using controller_interface::CallbackReturn;
-using controller_interface::InterfaceConfiguration;
-using controller_interface::interface_configuration_type;
-using controller_interface::return_type;
+#include <cmath>
 
 namespace chainable_controllers_demo
 {
+BroydenController::BroydenController() = default;
 
-RigidPoseBroadcaster::RigidPoseBroadcaster() = default;
-
-CallbackReturn RigidPoseBroadcaster::on_init()
+controller_interface::CallbackReturn BroydenController::on_init()
 {
-  RCLCPP_INFO(get_node()->get_logger(), "RigidPoseBroadcaster on_init");
-  return CallbackReturn::SUCCESS;
+  // Declare a parameter to know WHICH interfaces to write to
+  auto_declare<std::vector<std::string>>("interfaces", {});
+  return controller_interface::CallbackReturn::SUCCESS;
 }
 
-//nothing from the state for now we will implement in the needle version though 
-InterfaceConfiguration RigidPoseBroadcaster::state_interface_configuration() const
+// 1. Request the interfaces we want to WRITE to (Kalman's interfaces)
+controller_interface::InterfaceConfiguration 
+BroydenController::command_interface_configuration() const
 {
-  InterfaceConfiguration cfg;
-  cfg.type = interface_configuration_type::NONE;
-  return cfg;
+  controller_interface::InterfaceConfiguration config;
+  config.type = controller_interface::interface_configuration_type::INDIVIDUAL;
+  // This will be loaded from yaml: ["kalman_controller/vel.v", "kalman_controller/vel.w"]
+  config.names = get_node()->get_parameter("interfaces").as_string_array();
+  return config;
 }
 
-// nothing here as well we jsut expose the reference and will never write to any hardware on anything 
-InterfaceConfiguration RigidPoseBroadcaster::command_interface_configuration() const
-{
-  InterfaceConfiguration cfg;
-  cfg.type = interface_configuration_type::NONE;
-  return cfg;
-}
-
-// Export pose as reference (command) interfaces 
-
-
+// 2. We are now a Preceding controller, so we don't need to export anything real.
+// (Professor's note: We still export dummy ones just to be safe/compliant).
 std::vector<hardware_interface::CommandInterface>
-RigidPoseBroadcaster::on_export_reference_interfaces()
+BroydenController::on_export_reference_interfaces()
 {
+  reference_interfaces_.resize(1);
   std::vector<hardware_interface::CommandInterface> refs;
-  refs.reserve(3);
-
-  refs.emplace_back(get_node()->get_name(), "pose.x", &pose_x_);
-  refs.emplace_back(get_node()->get_name(), "pose.y", &pose_y_);
-  refs.emplace_back(get_node()->get_name(), "pose.theta", &pose_theta_);
-
+  refs.emplace_back(get_node()->get_name(), "dummy", &reference_interfaces_[0]);
   return refs;
 }
 
-
-controller_interface::return_type RigidPoseBroadcaster::update_reference_from_subscribers()
+controller_interface::InterfaceConfiguration 
+BroydenController::state_interface_configuration() const
 {
-  // chained only nothing to do with subscriber in real will take data from state itnerface and nothing from subscriber so will alwasy stay the same
-  return return_type::OK;
+  return controller_interface::InterfaceConfiguration{
+    controller_interface::interface_configuration_type::NONE};
 }
 
-bool RigidPoseBroadcaster::on_set_chained_mode(bool /*chained_mode*/)
+controller_interface::CallbackReturn BroydenController::on_configure(const rclcpp_lifecycle::State &)
 {
-  // chained only for now but when the kalamn gets out of it it will as well so will have to work here
-  return true;
+  // Subscriber to /kalman_estimate (Soft dependency)
+  est_sub_ = get_node()->create_subscription<geometry_msgs::msg::Pose>(
+    "/kalman_estimate", rclcpp::SystemDefaultsQoS(),
+    std::bind(&BroydenController::estCallback, this, std::placeholders::_1));
+  return controller_interface::CallbackReturn::SUCCESS;
 }
 
-CallbackReturn RigidPoseBroadcaster::on_configure(const rclcpp_lifecycle::State &)
-{
-  RCLCPP_INFO(get_node()->get_logger(), "RigidPoseBroadcaster configured");
-  return CallbackReturn::SUCCESS;
-}
-
-CallbackReturn RigidPoseBroadcaster::on_activate(const rclcpp_lifecycle::State &)
+controller_interface::CallbackReturn BroydenController::on_activate(const rclcpp_lifecycle::State &)
 {
   t_ = 0.0;
-  pose_x_ = 0.0;
-  pose_y_ = 0.0;
-  pose_theta_ = 0.0;
-
-  RCLCPP_INFO(get_node()->get_logger(), "RigidPoseBroadcaster activated");
-  return CallbackReturn::SUCCESS;
+  return controller_interface::CallbackReturn::SUCCESS;
 }
 
-CallbackReturn RigidPoseBroadcaster::on_deactivate(const rclcpp_lifecycle::State &)
+controller_interface::CallbackReturn BroydenController::on_deactivate(const rclcpp_lifecycle::State &)
 {
-  RCLCPP_INFO(get_node()->get_logger(), "RigidPoseBroadcaster deactivated");
-  return CallbackReturn::SUCCESS;
+  return controller_interface::CallbackReturn::SUCCESS;
 }
 
-return_type RigidPoseBroadcaster::update_and_write_commands(
-  const rclcpp::Time & /*time*/, const rclcpp::Duration & period)
+bool BroydenController::on_set_chained_mode(bool) { return true; }
+controller_interface::return_type BroydenController::update_reference_from_subscribers() { return controller_interface::return_type::OK; }
+void BroydenController::estCallback(const geometry_msgs::msg::Pose::SharedPtr) {} // kept simple for demo
+
+controller_interface::return_type BroydenController::update_and_write_commands(
+  const rclcpp::Time &, const rclcpp::Duration & period)
 {
-  // simple dummy pose
   t_ += period.seconds();
-  pose_x_ += 0.01;   // 100 Hz
-  pose_y_ += 0.0;
-  pose_theta_ = 0.0;
+  double v_cmd = 0.2;
+  double w_cmd = 0.3 * std::sin(0.5 * t_);
 
-  // Just updating pose_x_/pose_y_/pose_theta_ is enough for now
-  return return_type::OK;
+  // 3. PUSH the data to the connected controller (Kalman)
+  // command_interfaces_ is populated by the Controller Manager based on our config
+  if (command_interfaces_.size() >= 2) {
+      command_interfaces_[0].set_value(v_cmd);
+      command_interfaces_[1].set_value(w_cmd);
+  }
+  return controller_interface::return_type::OK;
 }
-
-} // namespace 
+} // namespace
 
 PLUGINLIB_EXPORT_CLASS(
-  chainable_controllers_demo::RigidPoseBroadcaster,
+  chainable_controllers_demo::BroydenController,
   controller_interface::ChainableControllerInterface)
-
