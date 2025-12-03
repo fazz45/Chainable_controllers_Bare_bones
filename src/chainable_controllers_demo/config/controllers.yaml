@@ -3,6 +3,7 @@ controller_manager:
     update_rate: 100
     use_sim_time: false
 
+    # Define the controllers and their types here
     kalman_controller:
       type: chainable_controllers_demo/KalmanController
 
@@ -12,14 +13,17 @@ controller_manager:
     rigid_pose_broadcaster:
       type: chainable_controllers_demo/RigidPoseBroadcaster
 
-# PARAMETERS
-
+# ----------------------------------------------------------------------
+# SEPARATE SECTIONS FOR PARAMETERS
+# ----------------------------------------------------------------------
 
 broyden_controller:
   ros__parameters:
     interfaces:
       - kalman_controller/vel.v
       - kalman_controller/vel.w
+      - kalman_controller/est.x
+      - kalman_controller/est.y
 
 rigid_pose_broadcaster:
   ros__parameters:
