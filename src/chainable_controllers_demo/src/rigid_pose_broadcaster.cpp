@@ -11,13 +11,13 @@ controller_interface::CallbackReturn RigidPoseBroadcaster::on_init()
   return controller_interface::CallbackReturn::SUCCESS;
 }
 
-// est to connect to Kalman's pose interfaces
+// 1. Request to connect to Kalman's pose interfaces
 controller_interface::InterfaceConfiguration 
 RigidPoseBroadcaster::command_interface_configuration() const
 {
   controller_interface::InterfaceConfiguration config;
   config.type = controller_interface::interface_configuration_type::INDIVIDUAL;
-  // Loaded from yaml
+  // Loaded from yaml: ["kalman_controller/pose.x", "kalman_controller/pose.y", ...]
   config.names = get_node()->get_parameter("interfaces").as_string_array();
   return config;
 }
@@ -48,7 +48,7 @@ controller_interface::return_type RigidPoseBroadcaster::update_and_write_command
   t_ += period.seconds();
   double x_cmd = t_ * 0.1;
 
-  // PUSH the data to Kalman
+  // 3. PUSH the data to Kalman
   if (command_interfaces_.size() >= 3) {
       command_interfaces_[0].set_value(x_cmd); // x
       command_interfaces_[1].set_value(0.0);   // y
