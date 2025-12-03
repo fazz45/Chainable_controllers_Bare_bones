@@ -5,7 +5,6 @@
 #include <vector>
 
 #include "controller_interface/chainable_controller_interface.hpp"
-#include "geometry_msgs/msg/pose.hpp"
 #include "rclcpp/rclcpp.hpp"
 
 namespace chainable_controllers_demo
@@ -27,10 +26,10 @@ public:
   controller_interface::CallbackReturn on_deactivate(
     const rclcpp_lifecycle::State & previous_state) override;
 
-  // Claim interfaces from Kalman
+  // Claims 4 interfaces (2 to write, 2 to read)
   controller_interface::InterfaceConfiguration command_interface_configuration() const override;
 
-  // Export dummy interface
+  // Dummy export
   std::vector<hardware_interface::CommandInterface> on_export_reference_interfaces() override;
 
   controller_interface::InterfaceConfiguration state_interface_configuration() const override;
@@ -44,18 +43,11 @@ public:
   controller_interface::return_type update_reference_from_subscribers() override;
 
 protected:
-  // Callback for the Kalman estimate subscription
-  void estCallback(const geometry_msgs::msg::Pose::SharedPtr msg);
-
-  rclcpp::Subscription<geometry_msgs::msg::Pose>::SharedPtr est_sub_;
-
-  // Internal time for generating the sine wave
   double t_{0.0};
-
   
-  double est_x_{0.0};
-  double est_y_{0.0};
-  double est_theta_{0.0};
+  // Storage for the feedback read from Kalman
+  double last_est_x_{0.0};
+  double last_est_y_{0.0};
 };
 
 }  // namespace chainable_controllers_demo
