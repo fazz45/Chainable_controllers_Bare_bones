@@ -78,4 +78,3 @@ def generate_launch_description():
         kalman_spawner,          # starts first
         start_mid_and_upstream,  # triggers next 2
     ])
-
