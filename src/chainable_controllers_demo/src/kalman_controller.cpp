@@ -15,20 +15,24 @@ controller_interface::CallbackReturn KalmanController::on_init()
 std::vector<hardware_interface::CommandInterface>
 KalmanController::on_export_reference_interfaces()
 {
-  reference_interfaces_.resize(5); // Allocate storage for 5 inputs
+  // 1. Resize storage for 7 interfaces (5 Inputs, 2 Outputs)
+  reference_interfaces_.resize(7);
   std::vector<hardware_interface::CommandInterface> refs;
   
-  // These names (pose.x, vel.v) become "kalman_controller/pose.x"
+  // INPUTS (Others write to these)
   refs.emplace_back(get_node()->get_name(), "pose.x", &reference_interfaces_[0]);
   refs.emplace_back(get_node()->get_name(), "pose.y", &reference_interfaces_[1]);
   refs.emplace_back(get_node()->get_name(), "pose.theta", &reference_interfaces_[2]);
   refs.emplace_back(get_node()->get_name(), "vel.v", &reference_interfaces_[3]);
   refs.emplace_back(get_node()->get_name(), "vel.w", &reference_interfaces_[4]);
 
+  // OUTPUTS (We write to these, others read them)
+  refs.emplace_back(get_node()->get_name(), "est.x", &reference_interfaces_[5]);
+  refs.emplace_back(get_node()->get_name(), "est.y", &reference_interfaces_[6]);
+
   return refs;
 }
 
-//  Kalman does NOT claim interfaces from others
 controller_interface::InterfaceConfiguration
 KalmanController::command_interface_configuration() const
 {
@@ -54,7 +58,6 @@ controller_interface::CallbackReturn KalmanController::on_configure(
 controller_interface::CallbackReturn KalmanController::on_activate(
   const rclcpp_lifecycle::State &)
 {
-  // Initialize storage to 0
   for(auto & val : reference_interfaces_) val = 0.0;
   return controller_interface::CallbackReturn::SUCCESS;
 }
@@ -70,24 +73,35 @@ bool KalmanController::on_set_chained_mode(bool) { return true; }
 controller_interface::return_type KalmanController::update_and_write_commands(
   const rclcpp::Time &, const rclcpp::Duration &)
 {
-  // Read data from reference_interfaces_ (which Broyden/Rigid wrote to)
+  // STEP 1: READ INPUTS (From indices 0-4)
   const double pose_x   = reference_interfaces_[0];
   const double pose_y   = reference_interfaces_[1];
   const double pose_th  = reference_interfaces_[2];
   const double vel_v    = reference_interfaces_[3];
   const double vel_w    = reference_interfaces_[4];
 
-  // Fuse and Publish
-  geometry_msgs::msg::Pose msg;
-  msg.position.x = pose_x + vel_v;
-  msg.position.y = pose_y + vel_w;
-  msg.position.z = 0.0;
+  // STEP 2: COMPUTE FUSION
+  const double fused_x     = pose_x + vel_v;
+  const double fused_y     = pose_y + vel_w;
+  const double fused_theta = pose_th;
 
-  const double half_yaw = pose_th * 0.5;
+  // STEP 3: WRITE OUTPUTS (To indices 5-6)
+  reference_interfaces_[5] = fused_x;
+  reference_interfaces_[6] = fused_y;
+  
+  
+
+
+  // Optional: Publish to topic for visualization only
+  geometry_msgs::msg::Pose msg;
+  msg.position.x = fused_x;
+  msg.position.y = fused_y;
+  msg.position.z = 0.0;
+  const double half_yaw = fused_theta * 0.5;
   msg.orientation.z = std::sin(half_yaw);
   msg.orientation.w = std::cos(half_yaw);
-
   pose_pub_->publish(msg);
+
   return controller_interface::return_type::OK;
 }
 
